@@ -1,0 +1,218 @@
+[
+ {
+  "speaker": "Speaker_0",
+  "start": 0.364,
+  "end": 1.375,
+  "text": "হ্যাঁ হ্যালো (Hello)"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 1.638,
+  "end": 2.478,
+  "text": "হ্যাঁ বল"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 2.692,
+  "end": 3.516,
+  "text": "কোথায় আছিস ?"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 3.755,
+  "end": 4.819,
+  "text": "এই তো বাড়িতে ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 5.035,
+  "end": 6.131,
+  "text": "মনে আছে তো আজ ?"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 6.315,
+  "end": 7.419,
+  "text": "হ্যাঁ মনে আছে  ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 7.682,
+  "end": 8.626,
+  "text": "যাবি তো ?"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 8.831,
+  "end": 10.367,
+  "text": "যাবো যাবো কখন বেরোবি বল ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 10.401,
+  "end": 12.172,
+  "text": "এই সাড়ে সাতটার (07:30) সময় রিহার্সাল (rehearsal) করব ।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 12.968,
+  "end": 13.909,
+  "text": "সাড়ে সাতটা(07:30) থেকে ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 13.919,
+  "end": 14.351,
+  "text": "হু"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 14.674,
+  "end": 15.666,
+  "text": "এত জলদি যাবি ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 15.818,
+  "end": 18.25,
+  "text": "হ্যাঁ জলদি না গেলে তো বুঝতে পারছিস"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 19.172,
+  "end": 20.805,
+  "text": "হ্যাঁ কেউ কিছু বলবে না তুই চো না"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 21.228,
+  "end": 22.236,
+  "text": "ঠিক আছে"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 21.247,
+  "end": 22.231,
+  "text": "এখুনি চো"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 22.371,
+  "end": 23.213,
+  "text": "হ্যাঁ হ্যাঁ ঠিক আছে"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 23.354,
+  "end": 25.539,
+  "text": "একটু আজকে কী গান আছে রিহার্সালে (rehearsal) ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 25.904,
+  "end": 27.76,
+  "text": "দেখি কিছু একটা গান তো আছেই ।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 28.26,
+  "end": 31.158,
+  "text": "আ ... [Vocalization] ঠিক আছে তাহলে আয় আমি আসছি ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 31.4,
+  "end": 33.168,
+  "text": "হু আর খোলগেলা কার কাছে আছে ?"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 33.524,
+  "end": 36.183,
+  "text": "খোলগুলো ... [Vocalization] এই তো কাউর কাছে আছে তুই নিয়ে আয় ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 36.526,
+  "end": 40.302,
+  "text": "হ্যাঁ হ্যাঁ ঠিক আছে দেখছি আর সবাইকে কল (call) করে জানিয়ে দেয় যে আসছি আমরা ।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 40.517,
+  "end": 43.389,
+  "text": "ঠিক আছে আমি সবাইকে গ্রুপে (group) কল (call) করে দিচ্ছি কোথায় আছে জিজ্ঞেস করছি  ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 43.94,
+  "end": 45.644,
+  "text": "হ্যাঁ ঠিক আছে তাহলে আয়।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 45.884,
+  "end": 47.22,
+  "text": "হ্যাঁ আসছি তুই আয় ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 47.534,
+  "end": 49.705,
+  "text": "আর ইয়ে.. [Vocalization] কাল যাবি প্রোগ্রাম (program) দেখতে ?"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 49.873,
+  "end": 50.993,
+  "text": "হ্যা যাব কখন ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 51.679,
+  "end": 54.623,
+  "text": "ওই তো সাতটা (07:00) সাড়ে সাতটার(07:30) দিক করে বেরিয়ে যাব ।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 55.079,
+  "end": 56.855,
+  "text": "ঠিক আছে কোথায় দেখবি বল তো প্রোগ্রাম (program)?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 57.564,
+  "end": 59.94,
+  "text": "এই তো আমাদের এদিকেই তো পাড়াতে একটা হচ্ছে ।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 60.52,
+  "end": 61.898,
+  "text": "হু ঠিক আছে যাবো ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 61.978,
+  "end": 62.337,
+  "text": "যাবি ?"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 62.378,
+  "end": 62.866,
+  "text": "হ্যা  হ্যা"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 62.89,
+  "end": 63.514,
+  "text": "ঠিক আছে চল ।"
+ },
+ {
+  "speaker": "Speaker_2",
+  "start": 63.818,
+  "end": 64.114,
+  "text": "হ্যাঁ ।"
+ }
+]

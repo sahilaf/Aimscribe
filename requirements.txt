@@ -1,0 +1,23 @@
+# Install PyTorch first (CUDA build), see README:
+#   pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+
+# Task 1: speaker diarization
+pyannote.audio==3.3.2
+pyannote.metrics==3.2.1
+
+# Task 2: ASR (Whisper fine-tuning)
+transformers==4.46.3
+datasets==3.1.0
+accelerate==1.1.1
+evaluate==0.4.3
+jiwer==3.0.5
+silero-vad==5.1.2
+onnxruntime==1.20.1      # AI4Bharat IndicConformer (final ASR) runs on ONNX
+
+# Audio + utilities
+librosa==0.10.2.post1
+soundfile==0.12.1
+pandas
+matplotlib
+python-dotenv==1.0.1
+ipykernel

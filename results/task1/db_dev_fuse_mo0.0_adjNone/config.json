@@ -1,0 +1,203 @@
+{
+  "method": "overlap-aware fusion (3.1 + PixIT overlap)",
+  "base": "db_dev_community1",
+  "pixit": "db_dev_pixit",
+  "run": "db_dev_fuse_mo0.0_adjNone",
+  "min_overlap": 0.0,
+  "chunk_s": 300.0,
+  "adjacent_s": null,
+  "per_clip": {
+    "bengali_001": {
+      "added_s": 51.93,
+      "mapped": 3
+    },
+    "bengali_002": {
+      "added_s": 65.09,
+      "mapped": 4
+    },
+    "bengali_003": {
+      "added_s": 71.9,
+      "mapped": 4
+    },
+    "bengali_004": {
+      "added_s": 87.99,
+      "mapped": 2
+    },
+    "bengali_017": {
+      "added_s": 32.64,
+      "mapped": 4
+    },
+    "bengali_018": {
+      "added_s": 21.51,
+      "mapped": 4
+    },
+    "bengali_019": {
+      "added_s": 39.9,
+      "mapped": 4
+    },
+    "bengali_020": {
+      "added_s": 54.34,
+      "mapped": 4
+    },
+    "bengali_021": {
+      "added_s": 57.12,
+      "mapped": 4
+    },
+    "bengali_022": {
+      "added_s": 55.59,
+      "mapped": 4
+    },
+    "bengali_023": {
+      "added_s": 34.81,
+      "mapped": 4
+    },
+    "bengali_024": {
+      "added_s": 32.49,
+      "mapped": 3
+    },
+    "bengali_025": {
+      "added_s": 55.53,
+      "mapped": 3
+    },
+    "bengali_026": {
+      "added_s": 46.03,
+      "mapped": 4
+    },
+    "bengali_027": {
+      "added_s": 8.5,
+      "mapped": 2
+    },
+    "bengali_028": {
+      "added_s": 28.04,
+      "mapped": 4
+    },
+    "bengali_029": {
+      "added_s": 36.15,
+      "mapped": 2
+    },
+    "bengali_030": {
+      "added_s": 79.2,
+      "mapped": 4
+    },
+    "bengali_031": {
+      "added_s": 14.93,
+      "mapped": 2
+    },
+    "bengali_032": {
+      "added_s": 56.67,
+      "mapped": 3
+    },
+    "bengali_033": {
+      "added_s": 3.37,
+      "mapped": 2
+    },
+    "bengali_036": {
+      "added_s": 407.63,
+      "mapped": 12
+    },
+    "bengali_038": {
+      "added_s": 29.72,
+      "mapped": 2
+    },
+    "bengali_043": {
+      "added_s": 16.64,
+      "mapped": 3
+    },
+    "bengali_044": {
+      "added_s": 6.02,
+      "mapped": 3
+    },
+    "bengali_046": {
+      "added_s": 45.7,
+      "mapped": 8
+    },
+    "bengali_047": {
+      "added_s": 3.21,
+      "mapped": 2
+    },
+    "bengali_048": {
+      "added_s": 50.32,
+      "mapped": 6
+    },
+    "bengali_049": {
+      "added_s": 143.09,
+      "mapped": 5
+    },
+    "bengali_054": {
+      "added_s": 7.96,
+      "mapped": 2
+    },
+    "bengali_058": {
+      "added_s": 362.29,
+      "mapped": 8
+    },
+    "bengali_066": {
+      "added_s": 169.84,
+      "mapped": 8
+    },
+    "bengali_067": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_068": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_075": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_076": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_079": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_081": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_082": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_083": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_090": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_093": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_094": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_098": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_101": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_102": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_103": {
+      "added_s": 0.0,
+      "mapped": 0
+    },
+    "bengali_104": {
+      "added_s": 0.0,
+      "mapped": 0
+    }
+  }
+}

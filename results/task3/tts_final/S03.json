@@ -1,0 +1,199 @@
+{
+ "uri": "S03",
+ "duration_s": 51.73,
+ "turns": [
+  {
+   "speaker": "SPK_00",
+   "start": 0.48659375000000005,
+   "end": 2.00534375,
+   "overlap": false,
+   "text": "অরেঞ্জ জোন আসুন সাত নম্বর",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 2.9334687500000003,
+   "end": 6.0553437500000005,
+   "overlap": false,
+   "text": "ডাক্তার সাহেব আমার মেয়েটার তিন দিন ধরে জ্বর কিছুতেই কমছে না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 6.679718750000001,
+   "end": 8.02971875,
+   "overlap": false,
+   "text": "বসুন ওর বয়স কত",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 8.67096875,
+   "end": 11.691593750000003,
+   "overlap": false,
+   "text": "আট বছর রাতে জ্বর একশো চার পর্যন্ত উঠেছিল",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 12.56909375,
+   "end": 14.037218750000001,
+   "overlap": false,
+   "text": "তোমার কোথায় কষ্ট হচ্ছে বলো তো",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 14.459093750000001,
+   "end": 18.49221875,
+   "overlap": true,
+   "text": "আমার মাথা ব্যথা করে আর গায়ে খুব খেতে যাচ্ছে না শুধু শুয়ে থাকে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 16.58534375,
+   "end": 16.72034375,
+   "overlap": true,
+   "text": "হ্যাঁ",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 19.234718750000003,
+   "end": 21.394718750000003,
+   "overlap": false,
+   "text": "গায়ে কোনো র্যাস বা লাল ডাগ দেখেছেন",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 22.37346875,
+   "end": 23.504093750000003,
+   "overlap": false,
+   "text": "না এখনও দেখিনি",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 24.11159375,
+   "end": 28.87034375,
+   "overlap": false,
+   "text": "ডেঙ্গুর সময় চলছে আজকেই সিবি সি আর ডেঙ্গু এনএস ওয়ান টেস্ট করাবেন",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 29.76471875,
+   "end": 34.034093750000004,
+   "overlap": false,
+   "text": "জ্বরের জন্য প্যারাসিটামল সিরাপ দুই চামচ ছয় ঘণ্টা পরপর",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 34.47284375,
+   "end": 36.70034375,
+   "overlap": false,
+   "text": "ব্যথার জন্য কি আইবু প্রোফেন দেওয়া যাবে",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 37.62846875,
+   "end": 41.813468750000006,
+   "overlap": false,
+   "text": "না ডেঙ্গু না বোঝা পর্যন্ত আইভু প্রোফেন একদম দেবেন না",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 42.43784375,
+   "end": 43.838468750000004,
+   "overlap": false,
+   "text": "আমি কি স্কুলে যেতে পারবো",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_03",
+   "start": 44.63159375,
+   "end": 48.74909375,
+   "overlap": false,
+   "text": "এই সপ্তাহে না বাসায় বিশ্রাম নেবে আর বেশি করে পানি খাবে",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 49.407218750000006,
+   "end": 50.976593750000006,
+   "overlap": false,
+   "text": "ঠিক আছে ধন্যবাদ ডাক্তার সাহেব",
+   "role": "Patient"
+  }
+ ],
+ "roles": {
+  "SPK_00": "Doctor",
+  "SPK_01": "Patient",
+  "SPK_03": "Attendant 1",
+  "SPK_02": "Attendant 2"
+ },
+ "role_features": {
+  "SPK_00": {
+   "words": 10,
+   "doctor_words": 1,
+   "polite_2nd": 1,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 0,
+   "first_person": 1,
+   "own_symptoms": 0,
+   "doctor_score": 0.2,
+   "patient_score": 1.0,
+   "attendant_score": 0.0
+  },
+  "SPK_01": {
+   "words": 29,
+   "doctor_words": 1,
+   "polite_2nd": 0,
+   "address_doctor": 5,
+   "about_other": 1,
+   "symptoms": 3,
+   "first_person": 1,
+   "own_symptoms": 2,
+   "doctor_score": -0.3103448275862069,
+   "patient_score": 2.0,
+   "attendant_score": 1.5
+  },
+  "SPK_03": {
+   "words": 59,
+   "doctor_words": 6,
+   "polite_2nd": 4,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 1,
+   "first_person": 0,
+   "own_symptoms": 0,
+   "doctor_score": 0.1694915254237288,
+   "patient_score": 0.0,
+   "attendant_score": 1.5
+  },
+  "SPK_02": {
+   "words": 19,
+   "doctor_words": 0,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 2,
+   "first_person": 0,
+   "own_symptoms": 0,
+   "doctor_score": 0.0,
+   "patient_score": 0.0,
+   "attendant_score": 0.0
+  }
+ },
+ "timing_s": {
+  "diarization": 3.4,
+  "asr": 17.8,
+  "total": 21.3
+ }
+}

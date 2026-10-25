@@ -1,0 +1,35 @@
+{
+  "model": "pyannote/speaker-diarization-3.1",
+  "args": {
+    "run": "consult_default",
+    "wav_dir": "data/consultation/audio",
+    "ref_dir": "C:\\Users\\sahil\\Dropbox\\PC\\Documents\\projects\\Aimscribe\\data\\diarization\\rttm",
+    "num_speakers": null,
+    "min_speakers": null,
+    "max_speakers": null,
+    "clustering_threshold": null,
+    "min_duration_off": null,
+    "min_cluster_size": null
+  },
+  "pipeline_params": {
+    "segmentation": {
+      "min_duration_off": 0.0
+    },
+    "clustering": {
+      "method": "centroid",
+      "min_cluster_size": 12,
+      "threshold": 0.7045654963945799
+    }
+  },
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "timings": {
+    "consult_A": {
+      "seconds": 5.3,
+      "rtf": 0.0693
+    },
+    "consult_B": {
+      "seconds": 2.45,
+      "rtf": 0.0433
+    }
+  }
+}

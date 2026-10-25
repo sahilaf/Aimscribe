@@ -1,0 +1,122 @@
+[
+ {
+  "line": "S02-01",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 0.5,
+  "end": 6.1,
+  "text": "আসসালামু আলাইকুম ম্যাডাম। আমার আব্বাকে নিয়ে এসেছি, উনার পায়ে একটা ঘা হয়েছে।"
+ },
+ {
+  "line": "S02-02",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 6.71,
+  "end": 9.27,
+  "text": "ওয়ালাইকুম আসসালাম। ঘা কতদিনের?"
+ },
+ {
+  "line": "S02-03",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 9.859,
+  "end": 12.921,
+  "text": "প্রায় তিন সপ্তাহ। শুকাচ্ছে না, বরং বড় হচ্ছে।"
+ },
+ {
+  "line": "S02-04",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 13.258,
+  "end": 14.857,
+  "text": "উনার কি ডায়াবেটিস আছে?"
+ },
+ {
+  "line": "S02-05",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 15.116,
+  "end": 19.416,
+  "text": "জি, দশ বছরের ডায়াবেটিস। উনি গ্লিক্লাজাইড আশি মিলিগ্রাম খান।"
+ },
+ {
+  "line": "S02-06",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 19.956,
+  "end": 21.656,
+  "text": "সুগার শেষ কবে মেপেছিলেন?"
+ },
+ {
+  "line": "S02-07",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 21.939,
+  "end": 24.537,
+  "text": "গত সপ্তাহে, খালি পেটে বারো ছিল।"
+ },
+ {
+  "line": "S02-08",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 24.892,
+  "end": 28.384,
+  "text": "অনেক বেশি। পায়ে কি ব্যথা টের পান, না অবশ লাগে?"
+ },
+ {
+  "line": "S02-09",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 28.767,
+  "end": 31.451,
+  "text": "উনি বলেন পায়ে তেমন কিছু টের পান না।"
+ },
+ {
+  "line": "S02-10",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 30.951,
+  "end": 35.551,
+  "text": "এটা ডায়াবেটিক ফুট। ড্রেসিং করতে হবে আর একটা কালচার টেস্ট লাগবে।"
+ },
+ {
+  "line": "S02-11",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 32.848,
+  "end": 33.348,
+  "text": "আচ্ছা।"
+ },
+ {
+  "line": "S02-12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 36.056,
+  "end": 40.456,
+  "text": "ইনসুলিন শুরু করা দরকার, আর এইচবিএওয়ানসি টেস্ট করাবেন।"
+ },
+ {
+  "line": "S02-13",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 40.991,
+  "end": 43.373,
+  "text": "ইনসুলিন কি সারাজীবন নিতে হবে?"
+ },
+ {
+  "line": "S02-14",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 43.975,
+  "end": 48.946,
+  "text": "সেটা রিপোর্ট দেখে বলব। পা সবসময় পরিষ্কার আর শুকনো রাখবেন।"
+ },
+ {
+  "line": "S02-15",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 49.471,
+  "end": 51.249,
+  "text": "ঠিক আছে ম্যাডাম, ধন্যবাদ।"
+ }
+]

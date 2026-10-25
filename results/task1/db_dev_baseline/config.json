@@ -1,0 +1,219 @@
+{
+  "model": "pyannote/speaker-diarization-3.1",
+  "args": {
+    "run": "db_dev_baseline",
+    "wav_dir": "/content/aimscribe_data/diarbench/dev",
+    "ref_dir": "data/diarbench/dev/rttm",
+    "num_speakers": null,
+    "min_speakers": null,
+    "max_speakers": null,
+    "clustering_threshold": null,
+    "min_duration_off": null,
+    "min_cluster_size": null
+  },
+  "pipeline_params": {
+    "segmentation": {
+      "min_duration_off": 0.0
+    },
+    "clustering": {
+      "method": "centroid",
+      "min_cluster_size": 12,
+      "threshold": 0.7045654963945799
+    }
+  },
+  "device": "Tesla T4",
+  "timings": {
+    "bengali_001": {
+      "seconds": 8.8,
+      "rtf": 0.0459
+    },
+    "bengali_002": {
+      "seconds": 7.43,
+      "rtf": 0.0368
+    },
+    "bengali_003": {
+      "seconds": 8.48,
+      "rtf": 0.0373
+    },
+    "bengali_004": {
+      "seconds": 7.69,
+      "rtf": 0.0373
+    },
+    "bengali_017": {
+      "seconds": 7.9,
+      "rtf": 0.0377
+    },
+    "bengali_018": {
+      "seconds": 7.68,
+      "rtf": 0.0379
+    },
+    "bengali_019": {
+      "seconds": 7.36,
+      "rtf": 0.0377
+    },
+    "bengali_020": {
+      "seconds": 8.38,
+      "rtf": 0.0383
+    },
+    "bengali_021": {
+      "seconds": 7.96,
+      "rtf": 0.0385
+    },
+    "bengali_022": {
+      "seconds": 7.64,
+      "rtf": 0.0386
+    },
+    "bengali_023": {
+      "seconds": 7.95,
+      "rtf": 0.039
+    },
+    "bengali_024": {
+      "seconds": 7.68,
+      "rtf": 0.0393
+    },
+    "bengali_025": {
+      "seconds": 8.22,
+      "rtf": 0.0398
+    },
+    "bengali_026": {
+      "seconds": 8.78,
+      "rtf": 0.0408
+    },
+    "bengali_027": {
+      "seconds": 8.18,
+      "rtf": 0.0406
+    },
+    "bengali_028": {
+      "seconds": 7.84,
+      "rtf": 0.04
+    },
+    "bengali_029": {
+      "seconds": 8.01,
+      "rtf": 0.0392
+    },
+    "bengali_030": {
+      "seconds": 8.1,
+      "rtf": 0.0393
+    },
+    "bengali_031": {
+      "seconds": 7.78,
+      "rtf": 0.0389
+    },
+    "bengali_032": {
+      "seconds": 7.97,
+      "rtf": 0.0391
+    },
+    "bengali_033": {
+      "seconds": 2.27,
+      "rtf": 0.0355
+    },
+    "bengali_036": {
+      "seconds": 24.28,
+      "rtf": 0.0402
+    },
+    "bengali_038": {
+      "seconds": 2.77,
+      "rtf": 0.0374
+    },
+    "bengali_043": {
+      "seconds": 2.96,
+      "rtf": 0.0375
+    },
+    "bengali_044": {
+      "seconds": 4.33,
+      "rtf": 0.0389
+    },
+    "bengali_046": {
+      "seconds": 26.54,
+      "rtf": 0.0405
+    },
+    "bengali_047": {
+      "seconds": 2.81,
+      "rtf": 0.0368
+    },
+    "bengali_048": {
+      "seconds": 18.81,
+      "rtf": 0.0401
+    },
+    "bengali_049": {
+      "seconds": 14.73,
+      "rtf": 0.0397
+    },
+    "bengali_054": {
+      "seconds": 2.53,
+      "rtf": 0.0365
+    },
+    "bengali_058": {
+      "seconds": 30.33,
+      "rtf": 0.0403
+    },
+    "bengali_066": {
+      "seconds": 36.81,
+      "rtf": 0.0404
+    },
+    "bengali_067": {
+      "seconds": 36.68,
+      "rtf": 0.0404
+    },
+    "bengali_068": {
+      "seconds": 25.07,
+      "rtf": 0.04
+    },
+    "bengali_075": {
+      "seconds": 2.49,
+      "rtf": 0.0363
+    },
+    "bengali_076": {
+      "seconds": 2.16,
+      "rtf": 0.0354
+    },
+    "bengali_079": {
+      "seconds": 3.67,
+      "rtf": 0.0378
+    },
+    "bengali_081": {
+      "seconds": 2.36,
+      "rtf": 0.0362
+    },
+    "bengali_082": {
+      "seconds": 2.59,
+      "rtf": 0.0369
+    },
+    "bengali_083": {
+      "seconds": 2.46,
+      "rtf": 0.0367
+    },
+    "bengali_090": {
+      "seconds": 24.78,
+      "rtf": 0.0403
+    },
+    "bengali_093": {
+      "seconds": 12.94,
+      "rtf": 0.0398
+    },
+    "bengali_094": {
+      "seconds": 11.71,
+      "rtf": 0.0395
+    },
+    "bengali_098": {
+      "seconds": 3.58,
+      "rtf": 0.0376
+    },
+    "bengali_101": {
+      "seconds": 2.79,
+      "rtf": 0.0367
+    },
+    "bengali_102": {
+      "seconds": 2.85,
+      "rtf": 0.0369
+    },
+    "bengali_103": {
+      "seconds": 2.83,
+      "rtf": 0.0368
+    },
+    "bengali_104": {
+      "seconds": 2.74,
+      "rtf": 0.0367
+    }
+  }
+}

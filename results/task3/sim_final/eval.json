@@ -1,0 +1,80 @@
+{
+ "clips": [
+  {
+   "clip": "bn_conv_00",
+   "ref_spk": 2,
+   "hyp_spk": 2,
+   "cpWER%": 69.4,
+   "cpCER%": 29.7
+  },
+  {
+   "clip": "bn_conv_01",
+   "ref_spk": 2,
+   "hyp_spk": 1,
+   "cpWER%": 121.7,
+   "cpCER%": 98.9
+  },
+  {
+   "clip": "bn_conv_02",
+   "ref_spk": 2,
+   "hyp_spk": 4,
+   "cpWER%": 91.6,
+   "cpCER%": 57.6
+  },
+  {
+   "clip": "bn_conv_03",
+   "ref_spk": 2,
+   "hyp_spk": 2,
+   "cpWER%": 56.0,
+   "cpCER%": 16.1
+  },
+  {
+   "clip": "bn_conv_04",
+   "ref_spk": 2,
+   "hyp_spk": 2,
+   "cpWER%": 59.8,
+   "cpCER%": 22.3
+  },
+  {
+   "clip": "bn_conv_05",
+   "ref_spk": 2,
+   "hyp_spk": 2,
+   "cpWER%": 76.6,
+   "cpCER%": 34.3
+  },
+  {
+   "clip": "bn_conv_06",
+   "ref_spk": 3,
+   "hyp_spk": 3,
+   "cpWER%": 62.6,
+   "cpCER%": 23.2
+  },
+  {
+   "clip": "bn_conv_07",
+   "ref_spk": 3,
+   "hyp_spk": 3,
+   "cpWER%": 84.2,
+   "cpCER%": 44.3
+  },
+  {
+   "clip": "bn_conv_08",
+   "ref_spk": 3,
+   "hyp_spk": 3,
+   "cpWER%": 70.7,
+   "cpCER%": 29.2
+  },
+  {
+   "clip": "bn_conv_09",
+   "ref_spk": 3,
+   "hyp_spk": 4,
+   "cpWER%": 85.0,
+   "cpCER%": 42.4
+  }
+ ],
+ "OVERALL": {
+  "cpWER%": 78.2,
+  "cpCER%": 40.3,
+  "WER%_speaker_agnostic": 67.9,
+  "CER%_speaker_agnostic": 24.8
+ }
+}

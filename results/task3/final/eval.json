@@ -1,0 +1,40 @@
+{
+ "consult_A": {
+  "DER%": 1.61,
+  "role_error_rate%": 0.11,
+  "WER%_all_text": 81.0,
+  "CER%_all_text": 38.7,
+  "WER%_role_attributed": 81.0,
+  "CER%_role_attributed": 38.6,
+  "roles_from_reference_text_correct": true,
+  "predicted_roles": {
+   "SPK_01": "Doctor",
+   "SPK_00": "Patient"
+  },
+  "processing_s": 19.1,
+  "audio_s": 76.39
+ },
+ "consult_B": {
+  "DER%": 4.07,
+  "role_error_rate%": 2.61,
+  "WER%_all_text": 81.7,
+  "CER%_all_text": 38.3,
+  "WER%_role_attributed": 81.7,
+  "CER%_role_attributed": 38.4,
+  "roles_from_reference_text_correct": true,
+  "predicted_roles": {
+   "SPK_01": "Attendant",
+   "SPK_00": "Doctor"
+  },
+  "processing_s": 11.6,
+  "audio_s": 56.68
+ },
+ "OVERALL": {
+  "DER%": 2.66,
+  "role_error_rate%": 1.18,
+  "WER%_all_text": 81.2,
+  "CER%_all_text": 38.6,
+  "WER%_role_attributed": 81.2,
+  "CER%_role_attributed": 38.5
+ }
+}

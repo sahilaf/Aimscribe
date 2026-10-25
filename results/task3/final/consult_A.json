@@ -1,0 +1,265 @@
+{
+ "uri": "consult_A",
+ "duration_s": 76.39,
+ "turns": [
+  {
+   "speaker": "SPK_01",
+   "start": 1.17846875,
+   "end": 3.6590937500000003,
+   "overlap": false,
+   "text": "আসালামানেকম বষোন বলুন নাপ্না কি সমসহচ",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 3.99659375,
+   "end": 6.64596875,
+   "overlap": false,
+   "text": "মালেকম আস্যালাম ডাক্টশায় পামেকেটিনদ্দেন যামাক",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 7.3209687500000005,
+   "end": 8.99159375,
+   "overlap": false,
+   "text": "যর কতছিল মেপেছিলেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 9.177218750000002,
+   "end": 10.88159375,
+   "overlap": false,
+   "text": "জি কতুকানকে একস্য দুইছি",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 11.62409375,
+   "end": 13.969718750000002,
+   "overlap": false,
+   "text": "সাথে কাশিয়ত্ববা বলাবেথাছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 14.340968750000002,
+   "end": 16.78784375,
+   "overlap": false,
+   "text": "হ্যাসি আছে যেয়া নাথাটে পু নাথা কলে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 17.344718750000002,
+   "end": 18.47534375,
+   "overlap": false,
+   "text": "অনোসুদ খেয়েছেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 18.57659375,
+   "end": 21.52971875,
+   "overlap": false,
+   "text": "নায়ানক খাইনি সুথ গাড়ানপানি খাছের",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 22.187843750000003,
+   "end": 23.26784375,
+   "overlap": true,
+   "text": "প্যানাসিটে মোলো খাননি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 23.031593750000003,
+   "end": 23.65596875,
+   "overlap": true,
+   "text": "নাম",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 24.38159375,
+   "end": 26.91284375,
+   "overlap": false,
+   "text": "আপ্নিকি ডায়াপেটিক বাওয়া হাই ভালাক প্রশও রাছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 27.13221875,
+   "end": 30.76034375,
+   "overlap": false,
+   "text": "প্রেশারিত হায় থাকেলে আভি এম্ডাড়িপিন ফাইর নিলীগ্রাঙ খান্ক",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 31.38471875,
+   "end": 32.73471875,
+   "overlap": false,
+   "text": "কিকাচে সাস্করস্ত হয়",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 32.83596875,
+   "end": 33.20721875,
+   "overlap": false,
+   "text": "না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 34.20284375,
+   "end": 35.924093750000004,
+   "overlap": false,
+   "text": "বোমি অথাবা পাতলাবাকা নউিস্যে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 36.27846875,
+   "end": 38.52284375,
+   "overlap": false,
+   "text": "গতকাল একবা ভোঙী হয়েচে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 39.48471875,
+   "end": 40.041593750000004,
+   "overlap": false,
+   "text": "আচ্সান",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 42.58971875,
+   "end": 47.23034375,
+   "overlap": false,
+   "text": "এখন দেংগুরসীজন তায় এক্ঠা চিভিসিরা দেংগুর এনের চয়ান টেছ্ট করাবান",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 48.242843750000006,
+   "end": 49.930343750000006,
+   "overlap": false,
+   "text": "টেষ্পুলোখি আজকেই করেতাহবে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 50.30159375,
+   "end": 52.49534375,
+   "overlap": false,
+   "text": "জি আজকে করান র্পেলে আমাকে দায়াবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 52.64721875,
+   "end": 53.220968750000004,
+   "overlap": false,
+   "text": "আদ সাম্পিক",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 54.149093750000006,
+   "end": 61.25346875,
+   "overlap": false,
+   "text": "জড়ের জন্য পেরাসি তেমল ফাইডেট মিলিগ্রাম তিনে তিংভার খাবেন আর্প্রচুর পানি এবং ওর্সালেন খাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 61.35471875,
+   "end": 62.46846875000001,
+   "overlap": false,
+   "text": "অন্টিভিটিক লাগবনা",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 62.77221875,
+   "end": 67.09221875,
+   "overlap": false,
+   "text": "না এখন এন্টিবেটিক লাকবে না মনে হচ্ছে ওয়াই রালফিবার তবে যোদি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 67.14284375,
+   "end": 67.58159375000001,
+   "overlap": false,
+   "text": "জি",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 67.95284375,
+   "end": 72.82971875,
+   "overlap": false,
+   "text": "পেটে বেথা বা রক্তপার্দ বা খুপ দুরবল লাগে সাথে সাথে হাসপাতা লায়জনেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 73.18409375,
+   "end": 74.78721875000001,
+   "overlap": false,
+   "text": "থ্যিকাছে ধোন্যাদ দাপেশাড়ে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 75.10784375,
+   "end": 75.78284375,
+   "overlap": false,
+   "text": "পালো তাকবেন",
+   "role": "Doctor"
+  }
+ ],
+ "roles": {
+  "SPK_01": "Doctor",
+  "SPK_00": "Patient"
+ },
+ "role_features": {
+  "SPK_01": {
+   "words": 87,
+   "doctor_words": 6,
+   "polite_2nd": 9,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 2,
+   "first_person": 1,
+   "doctor_score": 0.1724137931034483,
+   "patient_score": 2.0,
+   "attendant_score": 0.0
+  },
+  "SPK_00": {
+   "words": 46,
+   "doctor_words": 1,
+   "polite_2nd": 0,
+   "address_doctor": 1,
+   "about_other": 0,
+   "symptoms": 2,
+   "first_person": 0,
+   "doctor_score": -0.021739130434782608,
+   "patient_score": 1.0,
+   "attendant_score": 0.0
+  }
+ },
+ "timing_s": {
+  "diarization": 6.4,
+  "asr": 12.6,
+  "total": 19.1
+ }
+}

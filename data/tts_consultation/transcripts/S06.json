@@ -1,0 +1,106 @@
+[
+ {
+  "line": "S06-01",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 0.5,
+  "end": 4.1,
+  "text": "স্লামালেকুম ডাক্তার সাহেব, প্রেশারের রিপোর্ট নিয়ে এসেছি।"
+ },
+ {
+  "line": "S06-02",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 4.484,
+  "end": 9.173,
+  "text": "ওয়ালাইকুম আসসালাম। দেখি। ওষুধ ঠিকমতো খাচ্ছেন?"
+ },
+ {
+  "line": "S06-03",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 9.754,
+  "end": 12.554,
+  "text": "জি, অ্যামলোডিপিন ফাইভ মিলিগ্রাম সকালে খাই।"
+ },
+ {
+  "line": "S06-04",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 11.954,
+  "end": 14.854,
+  "text": "উনি মাঝে মাঝে ভুলে যান, আমি মনে করিয়ে দিই।"
+ },
+ {
+  "line": "S06-05",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 15.353,
+  "end": 18.853,
+  "text": "আজকে প্রেশার একশো ষাট বাই একশো, এখনো বেশি।"
+ },
+ {
+  "line": "S06-06",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 19.631,
+  "end": 21.931,
+  "text": "আমার মাঝে মাঝে মাথার পিছনে ভার লাগে।"
+ },
+ {
+  "line": "S06-07",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 22.447,
+  "end": 27.747,
+  "text": "অ্যামলোডিপিনের সাথে লোসারটান পঞ্চাশ মিলিগ্রাম যোগ করছি, রাতে একটা।"
+ },
+ {
+  "line": "S06-08",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 26.226,
+  "end": 26.926,
+  "text": "আচ্ছা।"
+ },
+ {
+  "line": "S06-09",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 28.313,
+  "end": 31.41,
+  "text": "উনি খুব লবণ খান, ভাতের সাথে কাঁচা লবণ নেন।"
+ },
+ {
+  "line": "S06-10",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 31.745,
+  "end": 33.745,
+  "text": "কাঁচা লবণ একদম বন্ধ। আর প্রতিদিন হাঁটবেন।"
+ },
+ {
+  "line": "S06-11",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 34.495,
+  "end": 36.095,
+  "text": "ইসিজি কি আবার করতে হবে?"
+ },
+ {
+  "line": "S06-12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 36.794,
+  "end": 41.894,
+  "text": "হ্যাঁ, একটা ইসিজি আর সিরাম ক্রিয়েটিনিন করাবেন। এক মাস পরে আসবেন।"
+ },
+ {
+  "line": "S06-13",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 42.282,
+  "end": 43.681,
+  "text": "ঠিক আছে, ধন্যবাদ।"
+ }
+]

@@ -1,0 +1,4 @@
+clip,ref_spk,hyp_spk,DER%,miss%,FA%,conf%,miss_s,fa_s,conf_s,speech_s
+consult_A,2,2,1.81,1.46,0.34,0.0,0.89,0.21,0.0,60.6
+consult_B,2,2,4.48,4.22,0.26,0.0,1.86,0.12,0.0,44.17
+OVERALL,,,2.93,2.62,0.31,0.0,2.75,0.32,0.0,104.77

@@ -1,0 +1,193 @@
+{
+ "uri": "consult_B",
+ "duration_s": 56.68,
+ "turns": [
+  {
+   "speaker": "SPK_01",
+   "start": 0.57096875,
+   "end": 4.55346875,
+   "overlap": false,
+   "text": "সার আমন ছেলেকে নিয়েসেছি গতকালতিকে পাতলাপাকান হজেছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 5.076593750000001,
+   "end": 7.050968750000001,
+   "overlap": false,
+   "text": "আচশা বস্য ভাচ্ছার বয়শকত",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 7.202843750000001,
+   "end": 7.96221875,
+   "overlap": false,
+   "text": "চার বচ্য",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 8.56971875,
+   "end": 10.61159375,
+   "overlap": false,
+   "text": "দিনে কয়ে বার পাতলা বাহাহানা হচ্য",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 10.965968750000002,
+   "end": 15.15096875,
+   "overlap": false,
+   "text": "প্রাড়ীশ চাঁহিসান্যাড় আর্ড়াতে এইঙ্ভার বমিয় করেছে তার পথে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 15.20159375,
+   "end": 15.910343750000003,
+   "overlap": false,
+   "text": "জড়াসে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 16.19721875,
+   "end": 17.22659375,
+   "overlap": false,
+   "text": "হ্যাকি জয়ন আছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 17.93534375,
+   "end": 19.80846875,
+   "overlap": false,
+   "text": "পর্সাব খিক্মত ওছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 19.926593750000002,
+   "end": 20.922218750000003,
+   "overlap": false,
+   "text": "না কং অচ্য",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 21.614093750000002,
+   "end": 23.132843750000003,
+   "overlap": false,
+   "text": "কিছু খাওন নওয়স্যায় কনসুত",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 24.617843750000002,
+   "end": 28.87034375,
+   "overlap": false,
+   "text": "ফার্মসিকেকে একত চিরাফদ্যি ছেলো ম্যাক্ঠনি ডাজয় মামি হয়",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 32.66721875,
+   "end": 37.96596875,
+   "overlap": false,
+   "text": "ঠিকাছে অরিটু ডিহায়ে দেশন হচেপ্রতিবার পায়খানার পর আধাকাব অচচিয়ালিন খাওয়েন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 38.32034375,
+   "end": 38.759093750000005,
+   "overlap": false,
+   "text": "চি",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 39.282218750000006,
+   "end": 43.78784375,
+   "overlap": false,
+   "text": "আর জিংসি রাবদেচি দর্ষদিন খাওয়েন এনটিবেয়াড়টিক এখন দরকার্ন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 43.99034375,
+   "end": 44.61471875,
+   "overlap": false,
+   "text": "আচছান",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 45.57659375,
+   "end": 46.20096875,
+   "overlap": false,
+   "text": "সারেন",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 46.92659375,
+   "end": 48.563468750000006,
+   "overlap": false,
+   "text": "তুল টেশ্ট করাকি লবে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 49.12034375,
+   "end": 54.351593750000006,
+   "overlap": false,
+   "text": "এখন না যওদি দুই দিনে ভাল না হয় ভা পাতলা ভেখারাসাতে রক্তজায় তখন টেষ্ট করাব",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 55.02659375,
+   "end": 56.32596875,
+   "overlap": false,
+   "text": "তিকাচে ধলন্য ভাক্সান",
+   "role": "Attendant"
+  }
+ ],
+ "roles": {
+  "SPK_01": "Attendant",
+  "SPK_00": "Doctor"
+ },
+ "role_features": {
+  "SPK_01": {
+   "words": 41,
+   "doctor_words": 1,
+   "polite_2nd": 0,
+   "address_doctor": 1,
+   "about_other": 2,
+   "symptoms": 1,
+   "first_person": 0,
+   "doctor_score": -0.024390243902439025,
+   "patient_score": 0.5,
+   "attendant_score": 3.0
+  },
+  "SPK_00": {
+   "words": 51,
+   "doctor_words": 4,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 1,
+   "first_person": 0,
+   "doctor_score": 0.0784313725490196,
+   "patient_score": 0.5,
+   "attendant_score": 0.0
+  }
+ },
+ "timing_s": {
+  "diarization": 3.0,
+  "asr": 8.6,
+  "total": 11.6
+ }
+}

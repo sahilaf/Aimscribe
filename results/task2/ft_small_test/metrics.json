@@ -1,0 +1,19 @@
+{
+  "model": "/content/drive/MyDrive/Aimscribe/checkpoints/ft_small",
+  "run": "ft_small_test",
+  "clips": 390,
+  "decoding": {
+    "language": "bn",
+    "task": "transcribe",
+    "max_new_tokens": 128,
+    "num_beams": 1
+  },
+  "WER%": 66.36,
+  "CER%": 21.44,
+  "wrong_script_%": 0.0,
+  "empty_%": 0.0,
+  "repetition_loops_%": 0.0,
+  "over_long_output_%": 1.0,
+  "seconds": 47.4,
+  "device": "Tesla T4"
+}

@@ -1,0 +1,11 @@
+clip,speakers,duration_s,utterances,speech_segments,speech_s,overlap_s,overlap_pct_of_speech,short_utts(<1.6s),noise
+bn_conv_00,2,75.9,41,43,61.7,5.0,8.2,26,clean
+bn_conv_01,2,77.2,37,39,62.7,1.1,1.8,15,clean
+bn_conv_02,2,76.9,37,37,59.4,1.1,1.9,23,clean
+bn_conv_03,2,75.5,36,38,60.7,1.7,2.8,19,clean
+bn_conv_04,2,74.9,31,39,55.4,3.1,5.5,11,clean
+bn_conv_05,2,76.9,37,38,57.0,0.8,1.3,22,clean
+bn_conv_06,3,76.9,32,33,57.1,1.7,2.9,15,clean
+bn_conv_07,3,75.9,37,40,57.2,1.5,2.6,24,clean
+bn_conv_08,3,76.7,33,35,60.8,1.4,2.3,18,15 dB SNR
+bn_conv_09,3,75.5,37,38,59.9,2.9,4.8,23,15 dB SNR

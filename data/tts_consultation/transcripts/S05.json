@@ -1,0 +1,122 @@
+[
+ {
+  "line": "S05-01",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 0.5,
+  "end": 2.1,
+  "text": "আসুন, বসুন। কী সমস্যা?"
+ },
+ {
+  "line": "S05-02",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 2.467,
+  "end": 5.767,
+  "text": "প্রস্রাবের সময় খুব জ্বালাপোড়া করে, দুই দিন ধরে।"
+ },
+ {
+  "line": "S05-03",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 5.267,
+  "end": 6.851,
+  "text": "জ্বর আছে? কোমরে ব্যথা?"
+ },
+ {
+  "line": "S05-04",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 7.635,
+  "end": 9.435,
+  "text": "হালকা জ্বর আছে, কোমরে না।"
+ },
+ {
+  "line": "S05-05",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 10.126,
+  "end": 11.826,
+  "text": "বারবার প্রস্রাবের বেগ আসে?"
+ },
+ {
+  "line": "S05-06",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 11.426,
+  "end": 12.705,
+  "text": "জি, অনেকবার।"
+ },
+ {
+  "line": "S05-07",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 13.442,
+  "end": 18.114,
+  "text": "মনে হচ্ছে ইউরিন ইনফেকশন। একটা ইউরিন আর ই আর কালচার টেস্ট করাবেন।"
+ },
+ {
+  "line": "S05-08",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 15.25,
+  "end": 15.65,
+  "text": "হুম।"
+ },
+ {
+  "line": "S05-09",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 18.48,
+  "end": 24.18,
+  "text": "রিপোর্ট আসার আগ পর্যন্ত নাইট্রোফুরানটয়েন হান্ড্রেড মিলিগ্রাম, দিনে দুইবার, পাঁচ দিন।"
+ },
+ {
+  "line": "S05-10",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 19.321,
+  "end": 19.921,
+  "text": "জি।"
+ },
+ {
+  "line": "S05-11",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 24.783,
+  "end": 27.768,
+  "text": "আমার আগে একবার কিডনিতে পাথর হয়েছিল।"
+ },
+ {
+  "line": "S05-12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 27.168,
+  "end": 29.465,
+  "text": "তাহলে একটা আলট্রাসাউন্ডও করিয়ে নেবেন।"
+ },
+ {
+  "line": "S05-13",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 29.857,
+  "end": 31.657,
+  "text": "পানি কি বেশি খেতে হবে?"
+ },
+ {
+  "line": "S05-14",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 32.332,
+  "end": 36.032,
+  "text": "হ্যাঁ, দিনে অন্তত তিন লিটার পানি খাবেন। রিপোর্ট নিয়ে আসবেন।"
+ },
+ {
+  "line": "S05-15",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 36.463,
+  "end": 37.254,
+  "text": "ঠিক আছে।"
+ }
+]

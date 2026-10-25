@@ -1,0 +1,265 @@
+{
+ "uri": "consult_A",
+ "duration_s": 76.39,
+ "turns": [
+  {
+   "speaker": "SPK_01",
+   "start": 1.17846875,
+   "end": 3.6590937500000003,
+   "overlap": false,
+   "text": "বসুন বলুন আপনার কি সমস্যা আছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 3.99659375,
+   "end": 6.64596875,
+   "overlap": false,
+   "text": "মালিকুমাস সালাম ডাক্তার সাহেব আমার তিন দিন ধরে জমা পান",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 7.3209687500000005,
+   "end": 8.99159375,
+   "overlap": false,
+   "text": "জ্বর কত ছিল নেপেছিলেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 9.177218750000002,
+   "end": 10.88159375,
+   "overlap": false,
+   "text": "যে গতকালকে একশ দুই ছিল",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 11.62409375,
+   "end": 13.969718750000002,
+   "overlap": false,
+   "text": "সাথে কাশি অথবা গলা ব্যথা আছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 14.340968750000002,
+   "end": 16.78784375,
+   "overlap": false,
+   "text": "হ্যাঁ একটু কাশি আছে আর মাথাটা খুব মাথাখানি",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 17.344718750000002,
+   "end": 18.47534375,
+   "overlap": false,
+   "text": "কোন ওষুধ খেয়েছেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 18.57659375,
+   "end": 21.52971875,
+   "overlap": false,
+   "text": "না কোনো খাইনি শুধু গরম পানি খাচ্ছেন",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 22.187843750000003,
+   "end": 23.26784375,
+   "overlap": true,
+   "text": "প্যারাসিটা মূল ওখানে নেই",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 23.031593750000003,
+   "end": 23.65596875,
+   "overlap": true,
+   "text": "না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 24.38159375,
+   "end": 26.91284375,
+   "overlap": false,
+   "text": "আপনার কি ডায়াবেটিক বা হাই ব্লাড প্রেসার আছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 27.13221875,
+   "end": 30.76034375,
+   "overlap": false,
+   "text": "প্রেসার একটু হার থাকলে আমি এন্ড্রাডিপিং ফাইস মিলিগ্রাম খাই",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 31.38471875,
+   "end": 32.73471875,
+   "overlap": false,
+   "text": "ঠিক আছে শ্বাসকষ্ট হয়",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 32.83596875,
+   "end": 33.20721875,
+   "overlap": false,
+   "text": "না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 34.20284375,
+   "end": 35.924093750000004,
+   "overlap": false,
+   "text": "বমি অথবা বাতলা বা এখানে হইছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 36.27846875,
+   "end": 38.52284375,
+   "overlap": false,
+   "text": "গতকাল একবার ব্রুমে হয়েছে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 39.48471875,
+   "end": 40.041593750000004,
+   "overlap": false,
+   "text": "আচ্ছা",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 42.58971875,
+   "end": 47.23034375,
+   "overlap": false,
+   "text": "এখন ডেঙ্গুর সিজন তাই একটা সিবিসি আর ডেঙ্গুর এনএস ওয়ান টেস্ট করাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 48.242843750000006,
+   "end": 49.930343750000006,
+   "overlap": false,
+   "text": "টেস্ট গুলো কি আজকেই করতে হবে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 50.30159375,
+   "end": 52.49534375,
+   "overlap": false,
+   "text": "যে আজকে করান রিপোর্ট পেলে আমাকে দেখাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 52.64721875,
+   "end": 53.220968750000004,
+   "overlap": false,
+   "text": "আচ্ছা",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 54.149093750000006,
+   "end": 61.25346875,
+   "overlap": false,
+   "text": "জ্বরের জন্য প্যারাসিটামল ফাইভ হাইড্রেট মিলিগ্রাম দিনে তিনবার খাবেন আর প্রচুর পানি এবং ও স্যালাইন খাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 61.35471875,
+   "end": 62.46846875000001,
+   "overlap": false,
+   "text": "অ্যান্টিবেটিক লাগবে না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 62.77221875,
+   "end": 67.09221875,
+   "overlap": false,
+   "text": "না এখন এন্টিবেটিক লাগবে না মনে হচ্ছে ভাইরাল ফিভার তবে যদি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 67.14284375,
+   "end": 67.58159375000001,
+   "overlap": false,
+   "text": "জি",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 67.95284375,
+   "end": 72.82971875,
+   "overlap": false,
+   "text": "পেটে ব্যথা বা রক্তপাত বা খুব দুর্বল লাগে সাথে সাথে হাসপাতালে আসবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 73.18409375,
+   "end": 74.78721875000001,
+   "overlap": false,
+   "text": "ঠিক আছে ধন্যবাদ ডাক্তার সাহেব",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 75.10784375,
+   "end": 75.78284375,
+   "overlap": false,
+   "text": "ভালো থাকবেন",
+   "role": "Doctor"
+  }
+ ],
+ "roles": {
+  "SPK_01": "Doctor",
+  "SPK_00": "Patient"
+ },
+ "role_features": {
+  "SPK_01": {
+   "words": 102,
+   "doctor_words": 13,
+   "polite_2nd": 10,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 9,
+   "first_person": 1,
+   "doctor_score": 0.22549019607843138,
+   "patient_score": 5.5,
+   "attendant_score": 1.5
+  },
+  "SPK_00": {
+   "words": 61,
+   "doctor_words": 4,
+   "polite_2nd": 1,
+   "address_doctor": 5,
+   "about_other": 0,
+   "symptoms": 3,
+   "first_person": 2,
+   "doctor_score": -0.08196721311475409,
+   "patient_score": 3.5,
+   "attendant_score": 0.0
+  }
+ },
+ "timing_s": {
+  "diarization": 8.6,
+  "asr": 21.1,
+  "total": 29.8
+ }
+}

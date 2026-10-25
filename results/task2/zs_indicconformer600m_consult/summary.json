@@ -1,0 +1,41 @@
+{
+ "model": "C:/Users/sahil/aimscribe_data/models/indic-conformer-600m",
+ "pad": 0.0,
+ "max_new_tokens": 128,
+ "num_beams": 1,
+ "vad_gate": false,
+ "vad_crop": false,
+ "prompt": null,
+ "WER%,CER%,lines": {
+  "ALL": [
+   18.8,
+   7.2,
+   46
+  ],
+  "SHORT": [
+   31.5,
+   14.6,
+   15
+  ],
+  "EN": [
+   18.6,
+   6.1,
+   11
+  ],
+  "MED": [
+   21.4,
+   6.6,
+   12
+  ],
+  "OVERLAP": [
+   50.0,
+   17.6,
+   4
+  ],
+  "untagged": [
+   10.0,
+   4.9,
+   15
+  ]
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "uri": "S06",
+ "duration_s": 44.18,
+ "turns": [
+  {
+   "speaker": "SPK_01",
+   "start": 0.50346875,
+   "end": 4.01346875,
+   "overlap": false,
+   "text": "ইসলাম আলিকুম ডাক্তার সাহেব প্রেশারের রিপোর্ট নিয়ে এসেছি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 4.570343750000001,
+   "end": 5.6334687500000005,
+   "overlap": false,
+   "text": "ওয়ালাইকুম আসালাম",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 6.37596875,
+   "end": 8.78909375,
+   "overlap": false,
+   "text": "দেখি ওষুধ ঠিকমতো খাচ্ছেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 9.750968750000002,
+   "end": 12.41721875,
+   "overlap": true,
+   "text": "জি অ্যামলোডিপিন ফাইভ মিলিগ্রাম সকালে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 11.94471875,
+   "end": 14.67846875,
+   "overlap": true,
+   "text": "বলে মাঝে মাঝে ভুলে যান আমি মনে করিয়ে দিই",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 15.31971875,
+   "end": 18.64409375,
+   "overlap": false,
+   "text": "আজকে প্রেশার একশো ষাট বাই একশো এখনও বেশি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 19.656593750000003,
+   "end": 21.664718750000002,
+   "overlap": false,
+   "text": "আমার মাঝে মাঝে মাথার পিছনে ভার লাগ",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 22.42409375,
+   "end": 26.42346875,
+   "overlap": true,
+   "text": "অ্যামলোডি পিনের সাথে লোসার টান পঞ্চাশ মিলিগ্রাম যোগ করছি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 26.38971875,
+   "end": 26.65971875,
+   "overlap": true,
+   "text": "ছ",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 26.65971875,
+   "end": 27.58784375,
+   "overlap": false,
+   "text": "রাতে একটা",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 28.313468750000002,
+   "end": 31.215968750000002,
+   "overlap": false,
+   "text": "উনি খুব লবণ খান ভাতের সাথে কাঁচা লবণ দেন",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 31.739093750000002,
+   "end": 33.494093750000005,
+   "overlap": false,
+   "text": "কাঁচা লবণ একদম বন্ধ",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 34.48971875,
+   "end": 35.94096875,
+   "overlap": false,
+   "text": "ইসিজি কি আবার করতে হবে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 36.767843750000004,
+   "end": 39.78846875,
+   "overlap": false,
+   "text": "হ্যাঁ একটা ইসিজি আর সিরাম ক্রিয়েটিনিন করাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 40.31159375,
+   "end": 41.52659375,
+   "overlap": false,
+   "text": "এক মাস পরে আসবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 42.28596875,
+   "end": 43.46721875,
+   "overlap": false,
+   "text": "ঠিক আছে ধন্যবাদ",
+   "role": "Doctor"
+  }
+ ],
+ "roles": {
+  "SPK_01": "Doctor",
+  "SPK_00": "Attendant"
+ },
+ "role_features": {
+  "SPK_01": {
+   "words": 68,
+   "doctor_words": 6,
+   "polite_2nd": 3,
+   "address_doctor": 3,
+   "about_other": 0,
+   "symptoms": 3,
+   "first_person": 2,
+   "own_symptoms": 1,
+   "doctor_score": 0.04411764705882353,
+   "patient_score": 2.5,
+   "attendant_score": 0.0
+  },
+  "SPK_00": {
+   "words": 19,
+   "doctor_words": 0,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 0,
+   "first_person": 1,
+   "own_symptoms": 0,
+   "doctor_score": 0.0,
+   "patient_score": 1.0,
+   "attendant_score": 1.5
+  }
+ },
+ "timing_s": {
+  "diarization": 2.8,
+  "asr": 15.4,
+  "total": 18.4
+ }
+}

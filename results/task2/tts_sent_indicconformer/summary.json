@@ -1,0 +1,102 @@
+{
+ "model": "/content/aimscribe_data/models/indic-conformer-600m",
+ "backend": "indicconformer",
+ "ALL": {
+  "WER%": 11.6,
+  "CER%": 2.6,
+  "term_acc%": 71.1,
+  "term_acc_ignoring_spaces%": 77.7,
+  "clips": 600
+ },
+ "MED": {
+  "WER%": 14.0,
+  "CER%": 3.1,
+  "term_acc%": 71.5,
+  "term_acc_ignoring_spaces%": 77.2,
+  "clips": 324
+ },
+ "EN": {
+  "WER%": 14.4,
+  "CER%": 3.1,
+  "term_acc%": 70.7,
+  "term_acc_ignoring_spaces%": 77.5,
+  "clips": 330
+ },
+ "SHORT": {
+  "WER%": 13.7,
+  "CER%": 4.3,
+  "clips": 60
+ },
+ "untagged": {
+  "WER%": 7.2,
+  "CER%": 1.5,
+  "term_acc%": 100.0,
+  "term_acc_ignoring_spaces%": 100.0,
+  "clips": 210
+ },
+ "by_voice": {
+  "Aditi": {
+   "WER%": 14.2,
+   "CER%": 3.0,
+   "term_acc%": 68.4,
+   "term_acc_ignoring_spaces%": 73.7,
+   "clips": 100
+  },
+  "Arjun": {
+   "WER%": 12.3,
+   "CER%": 2.6,
+   "term_acc%": 71.6,
+   "term_acc_ignoring_spaces%": 78.9,
+   "clips": 100
+  },
+  "Arnav": {
+   "WER%": 9.7,
+   "CER%": 1.8,
+   "term_acc%": 74.7,
+   "term_acc_ignoring_spaces%": 82.1,
+   "clips": 100
+  },
+  "Rashmi": {
+   "WER%": 9.1,
+   "CER%": 1.6,
+   "term_acc%": 76.8,
+   "term_acc_ignoring_spaces%": 85.3,
+   "clips": 100
+  },
+  "Riya": {
+   "WER%": 14.1,
+   "CER%": 4.3,
+   "term_acc%": 64.2,
+   "term_acc_ignoring_spaces%": 68.4,
+   "clips": 100
+  },
+  "Tapan": {
+   "WER%": 10.0,
+   "CER%": 2.1,
+   "term_acc%": 70.5,
+   "term_acc_ignoring_spaces%": 77.9,
+   "clips": 100
+  }
+ },
+ "most_missed_terms": {
+  "সালবিউটামল": 10,
+  "সেফিক্সিম": 6,
+  "মেটফরমিন": 6,
+  "ইসোমিপ্রাজল": 6,
+  "মন্টিলুকাস্ট": 6,
+  "ডমপেরিডন": 6,
+  "অ্যাটোরভাস্টাটিন": 6,
+  "টুয়েন্টি": 6,
+  "মক্সিফ্লক্সাসিন": 6,
+  "এইচবিএওয়ানসি": 6,
+  "ফলোআপ": 6,
+  "অ্যামোক্সিসিলিন": 5,
+  "সিপ্রোফ্লক্সাসিন": 5,
+  "ফ্লুকোনাজল": 5,
+  "এক্সরে": 5
+ },
+ "term_acc_seen_in_training%": 63.6,
+ "terms_seen_in_training": 228,
+ "term_acc_unseen%": 67.1,
+ "terms_unseen": 222
+}

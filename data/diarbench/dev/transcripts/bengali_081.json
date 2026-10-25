@@ -1,0 +1,218 @@
+[
+ {
+  "speaker": "Speaker_0",
+  "start": 0.19,
+  "end": 1.289,
+  "text": "হ্যাঁ হ্যালো (hello) ?"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 1.401,
+  "end": 2.369,
+  "text": "হ্যাঁ বল"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 2.528,
+  "end": 3.73,
+  "text": "যাবি তো আজ ?"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 3.857,
+  "end": 4.547,
+  "text": "কোথায় ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 4.753,
+  "end": 5.971,
+  "text": "আরে প্রোগ্রাম (programme) দেখতে ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 6.537,
+  "end": 7.281,
+  "text": "কোথায় বলতো ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 7.382,
+  "end": 8.662,
+  "text": "এই তো দুর্গাপুর (Durgapur) উৎসব"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 9.014,
+  "end": 10.405,
+  "text": "হ্যাঁ হ্যাঁ যাব কখন বেরোবি ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 10.639,
+  "end": 12.303,
+  "text": "এই বেরোবো সাড়ে সাতটা (7:30) আটটা(08:00) দিকে  ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 12.778,
+  "end": 13.85,
+  "text": "ঠিক আছে যাবি কিসে ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 14.064,
+  "end": 15.448,
+  "text": "যাবো দেখি গাড়িতে ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 15.946,
+  "end": 17.474,
+  "text": "গাড়িতে তাহলে তুই বাইকটা (bike) বের কর ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 17.622,
+  "end": 19.198,
+  "text": "হ্যাঁ আর জানিস তো আজকে কে আসছে ?"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 20.002,
+  "end": 21.707,
+  "text": "না না আমি জানি না তুই বল কে আসছে ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 21.706,
+  "end": 23.474,
+  "text": "এই তো  আজ মনে হয় কেশব দে আসবে ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 24.053,
+  "end": 24.524,
+  "text": "কেশব দে ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 24.651,
+  "end": 25.051,
+  "text": "হ্যা"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 25.097,
+  "end": 27.313,
+  "text": "ঠিক আছে যাবো ভাই এ ঠান্ডা লাগবে তো ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 27.462,
+  "end": 29.166,
+  "text": "আ [Vocalization] জ্যাকেট (jacket) ট্যাকেট পরবি ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 29.78,
+  "end": 30.992,
+  "text": "ঠিক আছে পরে লিব ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 30.951,
+  "end": 32.334,
+  "text": "হ্যাঁ কিছু হবে তো হালকা করে ?"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 32.72,
+  "end": 33.584,
+  "text": "হ্যাঁ হবে । [Laughter]"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 33.754,
+  "end": 36.01,
+  "text": "হ্যাঁ তাহলে মানে কিছু খাবো দুজন (2) মিলে  ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 36.237,
+  "end": 37.269,
+  "text": "হ্যাঁ ঠিক আছে খাবো  ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 37.34,
+  "end": 39.9,
+  "text": "হ্যাঁ খাবো এনজয় (enjoy) হবে তাহলে ডান্স (dance)করব ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 40.294,
+  "end": 41.189,
+  "text": "হুম হুম ঠিক আছে ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 41.498,
+  "end": 44.218,
+  "text": "হ্যাঁ এ ডান্সও (dance) করব আর বুঝতে পারছিস ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 44.208,
+  "end": 46.184,
+  "text": "আরো বাকি ফ্রেন্ড (friend) গুলাকে বল যাবা কিনা ?"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 46.522,
+  "end": 48.198,
+  "text": "হ্যাঁ সবাই মিলেই যাবো যদি যাই তো ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 48.768,
+  "end": 51.048,
+  "text": "হ্যাঁ ঠিক আছে ওদেরকেও বলবি কিছু করে দিতে ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 51.464,
+  "end": 55.233,
+  "text": "হ্যাঁ হ্যাঁ সবাইকে বলবি দু তিনজন (2-3) থাকলে দুশো (200) টাকা করে দিলে আরামসে হবে ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 55.993,
+  "end": 57.193,
+  "text": "ঠিক আছে কি বাকার্ডি (bacardi) [Laughter]"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 57.414,
+  "end": 61.966,
+  "text": "হ্যাঁ হ্যাঁ বাকার্ডি (bacardi)একটা (1) তুলে নেবো দুজন (2) মিলে খাবো যদি কেউ থাকে তাহলে সবাই মিলেই খাবো ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 61.943,
+  "end": 62.823,
+  "text": "হ্যাঁ ঠিক আছে ।"
+ },
+ {
+  "speaker": "Speaker_0",
+  "start": 62.808,
+  "end": 63.786,
+  "text": "হ্যাঁ রাখছি তাহলে ।"
+ },
+ {
+  "speaker": "Speaker_1",
+  "start": 63.776,
+  "end": 63.994,
+  "text": "হু ।"
+ }
+]

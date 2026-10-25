@@ -1,0 +1,23 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.venv_p4/
+.ipynb_checkpoints/
+checkpoints/
+data/raw/
+
+# audio: only the small evaluation sets are tracked
+*.wav
+*.flac
+*.mp3
+!data/samples/**/*.wav
+!data/consultation/audio/*.wav
+!data/tts/audio/*.wav
+!data/tts_consultation/audio/*.wav
+
+# build outputs and local files
+report/report.html
+*.zip
+CHECKLIST.md
+report/full_report.md

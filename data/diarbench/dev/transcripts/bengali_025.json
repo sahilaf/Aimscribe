@@ -1,0 +1,338 @@
+[
+ {
+  "speaker": "SPEAKER_06",
+  "start": 0.516,
+  "end": 10.08,
+  "text": "কিন্তু কোনটা রিসেন্ট(recent) বানানো হয়েছে, সেইটা একটা(1)। মানে আইফেল-টাওয়ার(Eiffel Tower) নাকি দি স্ট্যাচু-অফ-লিবার্টি(Statue of Liberty) নাকি দি-সিডনি-ওপেরা-হাউস(The Sydney Opera House) না হাওড়া-ব্রিজ(Howrah Bridge)। হাওড়া-ব্রিজ(Howrah Bridge) নয়।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 10.436,
+  "end": 12.448,
+  "text": "প্রবাবলি(Probably) সিডনি-অপেরা-হাউস(Sydney Opera House)।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 12.74,
+  "end": 16.448,
+  "text": "হ্যাঁ সিডনি-ওপেরা-হাউস(Sydney Opera House)।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 13.444,
+  "end": 15.04,
+  "text": "কোন কোন সালে?"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 17.828,
+  "end": 24.896,
+  "text": "কোন সালে হয়েছে জানি না। এই এইগুলোর মধ্যে আমার মনে হলো সিডনি-ওপেরা-হাউস(Sydney Opera House)-টা একটু রিসেন্ট(recent)।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 24.292,
+  "end": 36.416,
+  "text": "হ্যাঁ একদমই একদমই নতুন। নাইনটিন-সেভেন্টি-থ্রি(1973) সিডনি-ওপেরা-হাউস(Sydney Opera House) এগুলোর থেকে মানে বাকিগুলো অনেক আগে তৈরি হয়ে গেছে। সিডনি-ওপেরা-হাউস(Sydney Opera House) এগুলোর মধ্যে সবথেকে রিসেন্ট(recent)। তো আচ্ছা।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 28.707,
+  "end": 29.376,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 35.588,
+  "end": 36.096,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 35.78,
+  "end": 40.896,
+  "text": "কেননা হাওড়া-ব্রিজ(Howrah Bridge) তো আঠারো(18) সালের কোনো একটা মানে সময়ে।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 39.747,
+  "end": 41.504,
+  "text": "উনিশশো-তেতাল্লিশ(1943)।"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 41.156,
+  "end": 43.936,
+  "text": "না না উনিশশো(1900) কোনো একটা হবে।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 41.956,
+  "end": 43.744,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 42.084,
+  "end": 43.2,
+  "text": "তেতাল্লিশ(43)।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 42.66,
+  "end": 44.416,
+  "text": "নাইনটিন-ফর্টি-থ্রি(1943)।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 45.508,
+  "end": 64.928,
+  "text": "নাইনটিন-ফর্টি-থ্রি(1943) তে তৈরি এবং যেই কোম্পানি(company) তৈরি করেছিল সেই কোম্পানি(company) এখনো ভালো রপ্তানি করে জিনিসপত্র। ঠিক আছে। তো এই জায়গাটা আমি যদি বলতে চাই, মানে এই ল্যান্ডমার্ক(landmark)-গুলোর মধ্যে কোনটা নিজের সময় হিসেবে ইঞ্জিনিয়ারিং(engineering) এর সবচেয়ে বড় কৃতিত্ব? এইগুলোর মধ্যে। কেন কেন?"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 45.956,
+  "end": 46.495,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 62.756,
+  "end": 63.616,
+  "text": "হাওড়া-ব্রিজ(Howrah Bridge)।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 64.452,
+  "end": 64.928,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 66.98,
+  "end": 68.256,
+  "text": "কারণ ওগুলো..."
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 67.3,
+  "end": 68.128,
+  "text": "মানে ওখানে..."
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 70.596,
+  "end": 71.264,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 70.724,
+  "end": 97.312,
+  "text": "<unintelligible> ধরে এত ট্রাফিক(traffic) সহ্য করছে মানে এখন তো শুনিয়েছি আমি প্রম্পট(prompt) লিখতে গিয়ে। না না এই কিছুদিন আগে আমি একটা প্রম্পট(prompt) লিখতে গিয়ে দেখলাম পড়লাম যে, মানে কেউ মানে ডোন্ট-মাইন্ড(don't mind) কেউ এখানে যদি কেউ বিহারী থেকে থাকে। মানে গুটকা বিহারীদের গুটকা <unintelligible> ভীষণ রকম ক্ষতি করে ওই যে স্টিলটা(steel)। সেইটা।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 75.812,
+  "end": 77.6,
+  "text": "এত ট্রাফিক(traffic) সহ্য করেও দাঁড়িয়ে আছে।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 81.924,
+  "end": 82.304,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 90.148,
+  "end": 94.4,
+  "text": "হ্যাঁ পানের পিক। <unintelligible> ঠিক কথা। সত্যিই ঠিক কথা।"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 91.652,
+  "end": 92.64,
+  "text": "হ্যাঁ প্রচুর।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 96.676,
+  "end": 97.088,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 97.54,
+  "end": 121.152,
+  "text": "কে ওভারকাম(overcome) করেও এটা ব্রিজ(bridge)-টা এখনো অব্দি টিকে আছে। আর সবথেকে বড়ো কথা কোথাও নাটের ইউজ(use) নেই। ওটা বড়ো জিনিস, আর হচ্ছে ওটা এতটা ওভার-লোড(over load) ক্যারি(carry) করার জন্য নয়। একটা ম্যাক্সিমাম(maximum) আছে কিন্তু সেটারও ডাবল(double) ট্রিপল(triple) হয়ে যায়। এই।"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 102.18,
+  "end": 108.768,
+  "text": "একটাও নাটের ইউজ(use) নেই কোথাও। ইউজ(use) নেই। এটা সবথেকে বড় জিনিস।"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 102.948,
+  "end": 107.296,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 120.132,
+  "end": 125.504,
+  "text": "আসলে সেইটা হয়, ওইটার এরোডাইনামিক-শেপটার(aerodynamic shape) জন্যে যে কারণে..."
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 124.74,
+  "end": 128.608,
+  "text": "ক্যান্টিলিভার-ব্রিজ(Cantilever bridge) তো ওটা সবথেকে লঙ্গেস্ট(longest)। সেই কারণে ওটা..."
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 126.948,
+  "end": 133.12,
+  "text": "একদম, একদম, ক্যান্টিলিভার-ব্রিজ(Cantilever bridge) হওয়ার জন্যে ওই ওয়েটটা(weight) ডাইরেক্টলি(directly) পড়ে না, ব্রিজের(bridge) উপরে।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 127.396,
+  "end": 129.248,
+  "text": "হ্যাঁ। হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 131.78,
+  "end": 132.832,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 132.1,
+  "end": 132.768,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 134.052,
+  "end": 136.8,
+  "text": "ঠিকই ঠিকই। ক্যান্টিলিভার-ব্রিজ(Cantilever bridge) বলে ওয়েটটা(weight) ডাইরেক্টলি(directly) পড়ে না।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 136.164,
+  "end": 156.608,
+  "text": "না ব্রিজ(bridge) পড়ে কিন্তু ট্রাফিক(traffic) চলাচলের ক্ষেত্রে একটা লিমিটেশন(limitation) আছে, যেটা এখন লিমিটেশনটা(limitation) মানা হচ্ছে না। রিসেন্টলি(recently) আমি দেখলাম, আমি বললাম না এল-এল-এম(LLM) এর একটা(1) প্রম্পট(prompt) করতে গিয়ে আমি ওটা দেখলাম, জেনারেল-প্রম্পটে(general prompt) পড়ছিলাম আর কী। যে ওটা এখন মানা হচ্ছে না। অনেক বেশি ট্রাফিক(traffic) চলাচল করছে। ওর উপর দিয়ে।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 142.884,
+  "end": 143.424,
+  "text": "হ্যাঁ হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 155.876,
+  "end": 161.44,
+  "text": "না অবশ্যই সেটা জাংশন(junction) বলে সেটা আরোই মানা হচ্ছে না। আসলে জাংশনগুলো(junctions) হয় সেই কারণে।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 160.228,
+  "end": 162.24,
+  "text": "না যতই জাংশন(junction) হোক..."
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 161.188,
+  "end": 165.152,
+  "text": "এগুলো কিন্তু আগে মেইনটেইন(maintain) করা হতো, কিন্তু এখনই এগুলো হচ্ছে না।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 163.172,
+  "end": 170.24,
+  "text": "<unintelligible> মানে এখন সেটার প্রয়োজনীয়তার চেয়ে মানে দরকারের চেয়ে বেশি হচ্ছে <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 163.3,
+  "end": 165.28,
+  "text": "মানে আগে মেইনটেইন(maintain) করা হতো হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 169.028,
+  "end": 180.544,
+  "text": "মেইনটেইন(maintain) করা হচ্ছে, দেখো জাংশন(junction) হোক যাই হোক, একটা একটা অ্যাক্সিডেন্ট(accident) হয়ে গেলে কিন্তু অ্যাক্সিডেন্ট(accident) হয়ে গেলো তখন। তখন জাংশনই(junction) হোক আর যাই। হ্যাঁ তখন আলাদা কোনো একটা।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 174.276,
+  "end": 178.72,
+  "text": "না না, ওটা তো একটা বড়ো জিনিস হয়ে যাবে। আর হাওড়া-ব্রিজে(Howrah Bridge) অ্যাক্সিডেন্ট(accident) হলে আর কোনো কুলকিনারা পাবে না।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 175.396,
+  "end": 177.376,
+  "text": "একদমই একদমই। <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 179.46,
+  "end": 183.552,
+  "text": "আগে তো ট্র্যাফিক-জ্যাম(traffic jam) হতো না। সব থেকে বাজে ব্যাপার হাওড়া ব্রিজে এখন ট্র্যাফিক-জ্যাম(traffic jam) হয়।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 182.852,
+  "end": 187.328,
+  "text": "এখন হ্যাঁ এক(1) ঘন্টার উপর তো ওখানেই মনে হয় দাঁড়িয়ে থাকতে লাগে। ফাস্ট-বাইপাস(fast bypass) করা যায় না ওদিক দিয়ে।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 187.684,
+  "end": 189.28,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 187.908,
+  "end": 188.352,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 188.708,
+  "end": 189.312,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 189.252,
+  "end": 189.632,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 190.5,
+  "end": 190.976,
+  "text": "আচ্ছা।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 190.692,
+  "end": 192.064,
+  "text": "ভীষণ রকম।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 192.196,
+  "end": 206.592,
+  "text": "আমি কয়েকটা সিনেমা(cinema)-র নাম বলবো। ঠিক আছে? সেই সিনেমা(cinema)-র নামগুলোর মধ্যে কোনটা বইয়ের উপরে বেস্‌ড(based) নয়। মানে কোনটা বইয়ের উপরে বেস্‌ড(based) নয়। বাকি সবগুলোই বইয়ের উপরে বেস্‌ড(based) কিন্তু একটা এটার মধ্যে বইয়ের উপরে বেস্‌ড(based) নয়।"
+ }
+]

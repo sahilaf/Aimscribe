@@ -1,0 +1,37 @@
+{
+ "model": "C:\\Users\\sahil\\aimscribe_data\\models\\whisper-small-bn-ft",
+ "pad": 0.0,
+ "prompt": null,
+ "WER%,CER%,lines": {
+  "ALL": [
+   82.0,
+   41.6,
+   46
+  ],
+  "SHORT": [
+   85.2,
+   49.2,
+   15
+  ],
+  "EN": [
+   73.5,
+   37.2,
+   11
+  ],
+  "MED": [
+   81.6,
+   39.5,
+   12
+  ],
+  "OVERLAP": [
+   83.3,
+   35.3,
+   4
+  ],
+  "untagged": [
+   87.8,
+   43.6,
+   15
+  ]
+ }
+}

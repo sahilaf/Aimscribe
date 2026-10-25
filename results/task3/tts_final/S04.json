@@ -1,0 +1,185 @@
+{
+ "uri": "S04",
+ "duration_s": 47.51,
+ "turns": [
+  {
+   "speaker": "SPK_02",
+   "start": 0.50346875,
+   "end": 4.806593750000001,
+   "overlap": false,
+   "text": "বাবা আমার দুই হাঁটুতেই খুব ব্যথা নামাজে বসতে পারি না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 5.228468750000001,
+   "end": 6.79784375,
+   "overlap": false,
+   "text": "কতদিন ধরে এমন হচ্ছে খালা",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 7.472843750000001,
+   "end": 9.278468750000002,
+   "overlap": false,
+   "text": "অনেকদিন এক বছরের বেশি",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 10.172843750000002,
+   "end": 13.56471875,
+   "overlap": false,
+   "text": "স্যার আম্মা সিঁড়ি দিয়ে একদম উঠতে পারেন না শীতে আরো বাড়ে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 14.57721875,
+   "end": 17.58096875,
+   "overlap": false,
+   "text": "হাঁটু কি ফুলে যায় সকালে শক্ত লাগে হ্যাঁ",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 17.766593750000002,
+   "end": 20.90534375,
+   "overlap": false,
+   "text": "এনি ব্যথার জন্য প্রায় প্রতিদিন ডাইক্লোফেনাক খান",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 21.47909375,
+   "end": 24.80346875,
+   "overlap": true,
+   "text": "প্রতিদিন ডাইক্লোফেনাক খাওয়া ঠিক না কিডনির ক্ষতি হতে পারে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 23.80784375,
+   "end": 24.31409375,
+   "overlap": true,
+   "text": "আচ্ছা",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 25.49534375,
+   "end": 31.199093750000003,
+   "overlap": false,
+   "text": "এটা অস্টিও আর্থাইটিস মনে হচ্ছে দুই হাঁটুর এক্স রে আর সিরাম ক্রিয়েটিনিন করাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 31.890968750000003,
+   "end": 32.61659375,
+   "overlap": false,
+   "text": "ফিওে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 32.70096875,
+   "end": 33.12284375,
+   "overlap": false,
+   "text": "কি লাগবে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 33.78096875,
+   "end": 38.26971875,
+   "overlap": false,
+   "text": "হ্যাঁ ফিজিওথেরাপি আর হালকা ব্যায়াম ব্যথা বেশি হলে প্যারাসিটামল খাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_02",
+   "start": 38.860343750000006,
+   "end": 40.362218750000004,
+   "overlap": false,
+   "text": "আমার ওজনটা কি কমাতে হবে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 41.37471875,
+   "end": 45.49221875,
+   "overlap": false,
+   "text": "জি খালা ওজন একটু কম আনে হাঁটুর উপর চাপ কম পড়বে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 45.49221875,
+   "end": 45.96471875,
+   "overlap": false,
+   "text": "ঠিক আছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 46.150343750000005,
+   "end": 46.72409375,
+   "overlap": false,
+   "text": "ধন্যবাদ",
+   "role": "Attendant"
+  }
+ ],
+ "roles": {
+  "SPK_02": "Patient",
+  "SPK_00": "Doctor",
+  "SPK_01": "Attendant"
+ },
+ "role_features": {
+  "SPK_02": {
+   "words": 20,
+   "doctor_words": 0,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 1,
+   "first_person": 2,
+   "own_symptoms": 1,
+   "doctor_score": 0.0,
+   "patient_score": 2.5,
+   "attendant_score": 1.5
+  },
+  "SPK_00": {
+   "words": 56,
+   "doctor_words": 3,
+   "polite_2nd": 2,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 1,
+   "first_person": 0,
+   "own_symptoms": 0,
+   "doctor_score": 0.08928571428571429,
+   "patient_score": 0.0,
+   "attendant_score": 0.0
+  },
+  "SPK_01": {
+   "words": 24,
+   "doctor_words": 0,
+   "polite_2nd": 0,
+   "address_doctor": 2,
+   "about_other": 1,
+   "symptoms": 1,
+   "first_person": 0,
+   "own_symptoms": 0,
+   "doctor_score": -0.16666666666666666,
+   "patient_score": 0.0,
+   "attendant_score": 1.5
+  }
+ },
+ "timing_s": {
+  "diarization": 3.5,
+  "asr": 17.3,
+  "total": 20.9
+ }
+}

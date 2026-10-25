@@ -1,0 +1,41 @@
+{
+ "model": "/content/aimscribe_data/models/indicconformer-bn-120m/indicconformer_stt_bn_hybrid_rnnt_large.nemo",
+ "pad": 0.0,
+ "max_new_tokens": 128,
+ "num_beams": 1,
+ "vad_gate": false,
+ "vad_crop": false,
+ "prompt": null,
+ "WER%,CER%,lines": {
+  "ALL": [
+   23.9,
+   9.1,
+   46
+  ],
+  "SHORT": [
+   25.9,
+   11.2,
+   15
+  ],
+  "EN": [
+   30.4,
+   10.1,
+   11
+  ],
+  "MED": [
+   31.6,
+   9.9,
+   12
+  ],
+  "OVERLAP": [
+   33.3,
+   5.9,
+   4
+  ],
+  "untagged": [
+   15.6,
+   7.4,
+   15
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "run": "ft_medium_lora",
+  "base": "bengaliAI/tugstugi_bengaliai-asr_whisper-medium",
+  "train_csv": "/content/drive/MyDrive/Aimscribe/code/data/asr/train.csv",
+  "dev_speakers": 6,
+  "max_steps": 300,
+  "lr": 0.0001,
+  "batch": 4,
+  "grad_accum": 4,
+  "eval_steps": 100,
+  "spec_augment": false,
+  "lora": true,
+  "lora_r": 32,
+  "gen_max_len": 225,
+  "match_tugstugi": true,
+  "work_dir": "/content/ckpt",
+  "save_to": "/content/drive/MyDrive/Aimscribe/checkpoints",
+  "seed": 42,
+  "best_checkpoint": "/content/ckpt/ft_medium_lora/checkpoint-200",
+  "best_dev_wer": 2.690582959641256,
+  "zero_shot_dev": {
+    "eval_loss": 0.0507359504699707,
+    "eval_model_preparation_time": 0.0409,
+    "eval_wer": 3.3632286995515694,
+    "eval_cer": 0.7776049766718507,
+    "eval_runtime": 113.1514,
+    "eval_samples_per_second": 1.255,
+    "eval_steps_per_second": 0.318,
+    "epoch": 0
+  },
+  "train_utts": 1481,
+  "dev_utts": 142
+}

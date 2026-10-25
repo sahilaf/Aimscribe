@@ -1,0 +1,13 @@
+# Final pipeline (Task 3) and the Task 1 overlap-aware candidates: pyannote community-1 and PixIT need pyannote.audio 4,
+# which conflicts with the 3.3.2 pins of the main environment, so it gets its own venv (Python 3.12):
+#   py -3.12 -m venv .venv_p4  &&  .venv_p4\Scripts\pip install -r envs/requirements-pyannote4.txt
+# pip pulls a matching torch (CPU on Windows by default; the laptop demo runs fine on CPU).
+pyannote.audio==4.0.7      # 4.0.1 cannot load its checkpoints under torch >= 2.6 (weights_only)
+onnxruntime==1.20.1      # IndicConformer 600M
+silero-vad==5.1.2
+transformers==4.46.3     # imported by task2_asr/asr.py (Whisper option)
+jiwer==3.0.5
+soundfile
+pandas
+matplotlib
+python-dotenv

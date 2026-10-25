@@ -1,0 +1,19 @@
+{
+  "model": "bengaliAI/tugstugi_bengaliai-asr_whisper-medium",
+  "run": "zs_tugstugi_medium",
+  "clips": 390,
+  "decoding": {
+    "language": "bn",
+    "task": "transcribe",
+    "max_new_tokens": 440,
+    "num_beams": 1
+  },
+  "WER%": 5.95,
+  "CER%": 1.2,
+  "wrong_script_%": 0.0,
+  "empty_%": 0.0,
+  "repetition_loops_%": 0.0,
+  "over_long_output_%": 0.0,
+  "seconds": 74.4,
+  "device": "Tesla T4"
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "line": "S04-01",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 0.5,
+  "end": 4.9,
+  "text": "বাবা, আমার দুই হাঁটুতেই খুব ব্যথা, নামাজে বসতে পারি না।"
+ },
+ {
+  "line": "S04-02",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 5.198,
+  "end": 6.992,
+  "text": "কতদিন ধরে এমন হচ্ছে, খালা?"
+ },
+ {
+  "line": "S04-03",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 7.425,
+  "end": 9.425,
+  "text": "অনেক দিন, এক বছরের বেশি।"
+ },
+ {
+  "line": "S04-04",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 10.205,
+  "end": 13.876,
+  "text": "স্যার, আম্মা সিঁড়ি দিয়ে একদম উঠতে পারেন না, শীতে আরো বাড়ে।"
+ },
+ {
+  "line": "S04-05",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 14.543,
+  "end": 16.943,
+  "text": "হাঁটু কি ফুলে যায়? সকালে শক্ত লাগে?"
+ },
+ {
+  "line": "S04-06",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 17.258,
+  "end": 18.358,
+  "text": "হ্যাঁ, একটু।"
+ },
+ {
+  "line": "S04-07",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 17.858,
+  "end": 21.158,
+  "text": "উনি ব্যথার জন্য প্রায় প্রতিদিন ডাইক্লোফেনাক খান।"
+ },
+ {
+  "line": "S04-08",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 21.463,
+  "end": 25.163,
+  "text": "প্রতিদিন ডাইক্লোফেনাক খাওয়া ঠিক না, কিডনির ক্ষতি হতে পারে।"
+ },
+ {
+  "line": "S04-09",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 23.776,
+  "end": 24.376,
+  "text": "আচ্ছা।"
+ },
+ {
+  "line": "S04-10",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 25.446,
+  "end": 31.346,
+  "text": "এটা অস্টিওআর্থ্রাইটিস মনে হচ্ছে। দুই হাঁটুর এক্সরে আর সিরাম ক্রিয়েটিনিন করাবেন।"
+ },
+ {
+  "line": "S04-11",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 31.904,
+  "end": 33.304,
+  "text": "ফিজিওথেরাপি কি লাগবে?"
+ },
+ {
+  "line": "S04-12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 33.8,
+  "end": 38.5,
+  "text": "হ্যাঁ, ফিজিওথেরাপি আর হালকা ব্যায়াম। ব্যথা বেশি হলে প্যারাসিটামল খাবেন।"
+ },
+ {
+  "line": "S04-13",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 38.855,
+  "end": 40.738,
+  "text": "আমার ওজনটা কি কমাতে হবে?"
+ },
+ {
+  "line": "S04-14",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 41.39,
+  "end": 45.09,
+  "text": "জি খালা, ওজন একটু কমালে হাঁটুর উপর চাপ কম পড়বে।"
+ },
+ {
+  "line": "S04-15",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 45.412,
+  "end": 47.009,
+  "text": "ঠিক আছে স্যার, ধন্যবাদ।"
+ }
+]

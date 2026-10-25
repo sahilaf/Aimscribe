@@ -1,0 +1,146 @@
+[
+ {
+  "line": "B1",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 0.571,
+  "end": 4.554,
+  "text": "স্যার, আমার ছেলেকে নিয়ে এসেছি। ওর গতকাল থেকে পাতলা পায়খানা হচ্ছে।"
+ },
+ {
+  "line": "B2",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 5.077,
+  "end": 7.051,
+  "text": "আচ্ছা, বসুন। বাচ্চার বয়স কত?"
+ },
+ {
+  "line": "B3",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 7.203,
+  "end": 7.962,
+  "text": "চার বছর।"
+ },
+ {
+  "line": "B4",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 8.57,
+  "end": 10.612,
+  "text": "দিনে কতবার পায়খানা হচ্ছে?"
+ },
+ {
+  "line": "B5",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 10.966,
+  "end": 15.168,
+  "text": "প্রায় ছয়-সাতবার। আর রাতে একবার বমিও করেছে, তারপর থেকে—"
+ },
+ {
+  "line": "B6",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 15.202,
+  "end": 15.911,
+  "text": "জ্বর আছে?"
+ },
+ {
+  "line": "B7",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 16.197,
+  "end": 17.226,
+  "text": "হ্যাঁ, একটু জ্বর আছে।"
+ },
+ {
+  "line": "B8",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 17.935,
+  "end": 19.808,
+  "text": "হুম। প্রস্রাব ঠিকমতো হচ্ছে?"
+ },
+ {
+  "line": "B9",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 19.927,
+  "end": 20.923,
+  "text": "না, কম হচ্ছে।"
+ },
+ {
+  "line": "B10",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 21.614,
+  "end": 23.133,
+  "text": "কিছু খাওয়ানো হয়েছে? কোনো ওষুধ?"
+ },
+ {
+  "line": "B11",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 24.618,
+  "end": 28.871,
+  "text": "ফার্মেসি থেকে একটা সিরাপ দিয়েছিল, মেট্রোনিডাজল মনে হয়।"
+ },
+ {
+  "line": "B12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 32.667,
+  "end": 37.966,
+  "text": "ঠিক আছে। ওর একটু ডিহাইড্রেশন হয়েছে। প্রতিবার পায়খানার পর আধা কাপ ওরস্যালাইন খাওয়াবেন।"
+ },
+ {
+  "line": "B13",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 38.32,
+  "end": 38.759,
+  "text": "জি।"
+ },
+ {
+  "line": "B14",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 39.282,
+  "end": 43.788,
+  "text": "আর জিংক সিরাপ দিচ্ছি, দশ দিন খাওয়াবেন। অ্যান্টিবায়োটিক এখন দরকার নেই।"
+ },
+ {
+  "line": "B15",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 44.09,
+  "end": 45.036,
+  "text": "আচ্ছা।"
+ },
+ {
+  "line": "B16",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 45.593,
+  "end": 48.564,
+  "text": "স্যার, স্টুল টেস্ট করাতে হবে?"
+ },
+ {
+  "line": "B17",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 49.12,
+  "end": 54.492,
+  "text": "এখন না। যদি দুই দিনে ভালো না হয় বা পায়খানার সাথে রক্ত যায়, তখন টেস্ট করাব।"
+ },
+ {
+  "line": "B18",
+  "speaker": "Attendant",
+  "role": "Attendant",
+  "start": 55.027,
+  "end": 56.326,
+  "text": "ঠিক আছে, ধন্যবাদ স্যার।"
+ }
+]

@@ -1,0 +1,171 @@
+{
+ "uri": "S05",
+ "duration_s": 37.75,
+ "turns": [
+  {
+   "speaker": "SPEAKER_00",
+   "start": 0.48659375000000005,
+   "end": 2.0222187500000004,
+   "overlap": false,
+   "text": "আসুন বসুন কী সমস্যা",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 2.49471875,
+   "end": 5.6334687500000005,
+   "overlap": true,
+   "text": "প্রস্রাবের সময় খুব জ্বালাপোড়া করে দুই দিন",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 5.29596875,
+   "end": 6.74721875,
+   "overlap": true,
+   "text": "জ্বর আছে কুমড়ো ব্যথা",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 7.64159375,
+   "end": 9.278468750000002,
+   "overlap": false,
+   "text": "হালকা জ্বর আছে কোমড়ে না",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 10.122218750000002,
+   "end": 11.72534375,
+   "overlap": true,
+   "text": "বারবার প্রস্তাবের বেগ আছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 11.45534375,
+   "end": 12.36659375,
+   "overlap": true,
+   "text": "জি অনেকবার",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 13.480343750000003,
+   "end": 15.25221875,
+   "overlap": false,
+   "text": "মনে হচ্ছে ইউরিন ইনফেকশন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 15.25221875,
+   "end": 15.57284375,
+   "overlap": false,
+   "text": "হুম",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 15.57284375,
+   "end": 18.12096875,
+   "overlap": true,
+   "text": "একটা ইউরিন আর ইয়ার কালচার টেস্ট করাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 18.44159375,
+   "end": 21.20909375,
+   "overlap": true,
+   "text": "রিপোর্ট আসার আগ পর্যন্ত নাইট্রোফুরান্টয়েন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 21.49596875,
+   "end": 24.02721875,
+   "overlap": false,
+   "text": "হান্ড্রেড মিলিগ্রাম দিনে দুইবার পাঁচ দিন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 24.75284375,
+   "end": 27.351593750000003,
+   "overlap": true,
+   "text": "আমার আগে একবার কিডনিতে পাথর হয়েছে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 27.08159375,
+   "end": 29.309093750000002,
+   "overlap": true,
+   "text": "রাহুল একটা আলট্রাসাউন্ড ও করিয়ে নেবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 29.832218750000003,
+   "end": 31.45221875,
+   "overlap": false,
+   "text": "পানি কি বেশি খেতে হবে",
+   "role": "Patient"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 32.27909375,
+   "end": 35.78909375,
+   "overlap": false,
+   "text": "দিনে অন্তত তিন লিটার পানি খাবেন রিপোর্ট নিয়ে আসবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 36.41346875,
+   "end": 36.987218750000004,
+   "overlap": false,
+   "text": "ঠিক আছে",
+   "role": "Patient"
+  }
+ ],
+ "roles": {
+  "SPEAKER_00": "Doctor",
+  "SPEAKER_01": "Patient"
+ },
+ "role_features": {
+  "SPEAKER_00": {
+   "words": 49,
+   "doctor_words": 9,
+   "polite_2nd": 6,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 2,
+   "first_person": 1,
+   "own_symptoms": 0,
+   "doctor_score": 0.30612244897959184,
+   "patient_score": 1.0,
+   "attendant_score": 1.5
+  },
+  "SPEAKER_01": {
+   "words": 28,
+   "doctor_words": 1,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 1,
+   "first_person": 1,
+   "own_symptoms": 0,
+   "doctor_score": 0.03571428571428571,
+   "patient_score": 1.0,
+   "attendant_score": 0.0
+  }
+ },
+ "timing_s": {
+  "diarization": 2.1,
+  "asr": 13.7,
+  "total": 15.8
+ }
+}

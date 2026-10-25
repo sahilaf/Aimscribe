@@ -1,0 +1,7 @@
+consult,scenario,speakers,roles,lines,duration_s,overlap_s,overlap_pct,noise
+S01,asthma; patient speaks first; 2 speakers,2,"Doctor,Patient",13,45.6,1.0,2.7,clean
+S02,diabetic foot; attendant (son) first; patient silent,2,"Attendant,Doctor",15,51.7,1.0,2.2,clean
+S03,child fever; two attendants + child patient + nurse (Other),5,"Attendant,Doctor,Other,Patient",17,51.7,1.1,2.5,clean
+S04,knee pain; elderly patient first + daughter both talk,3,"Attendant,Doctor,Patient",15,47.5,1.1,2.6,clean
+S05,urine infection; doctor first; many overlaps and backchannels,2,"Doctor,Patient",15,37.8,2.2,6.5,clean
+S06,blood pressure follow-up; background noise; patient + wife,3,"Attendant,Doctor,Patient",13,44.2,1.3,3.4,10 dB fan

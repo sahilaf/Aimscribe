@@ -1,0 +1,67 @@
+{
+  "model": "pyannote/speaker-diarization-3.1",
+  "args": {
+    "run": "oracle_spk",
+    "wav_dir": "C:\\Users\\sahil\\aimscribe_data\\diarization\\wav",
+    "ref_dir": "C:\\Users\\sahil\\Dropbox\\PC\\Documents\\projects\\Aimscribe\\data\\diarization\\rttm",
+    "num_speakers": "oracle",
+    "min_speakers": null,
+    "max_speakers": null,
+    "clustering_threshold": null,
+    "min_duration_off": null,
+    "min_cluster_size": null
+  },
+  "pipeline_params": {
+    "segmentation": {
+      "min_duration_off": 0.0
+    },
+    "clustering": {
+      "method": "centroid",
+      "min_cluster_size": 12,
+      "threshold": 0.7045654963945799
+    }
+  },
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "timings": {
+    "bn_conv_00": {
+      "seconds": 4.7,
+      "rtf": 0.0619
+    },
+    "bn_conv_01": {
+      "seconds": 3.52,
+      "rtf": 0.0456
+    },
+    "bn_conv_02": {
+      "seconds": 4.49,
+      "rtf": 0.0584
+    },
+    "bn_conv_03": {
+      "seconds": 5.53,
+      "rtf": 0.0732
+    },
+    "bn_conv_04": {
+      "seconds": 5.39,
+      "rtf": 0.072
+    },
+    "bn_conv_05": {
+      "seconds": 5.46,
+      "rtf": 0.071
+    },
+    "bn_conv_06": {
+      "seconds": 5.44,
+      "rtf": 0.0707
+    },
+    "bn_conv_07": {
+      "seconds": 5.08,
+      "rtf": 0.0669
+    },
+    "bn_conv_08": {
+      "seconds": 5.02,
+      "rtf": 0.0655
+    },
+    "bn_conv_09": {
+      "seconds": 4.32,
+      "rtf": 0.0573
+    }
+  }
+}

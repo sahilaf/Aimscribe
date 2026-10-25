@@ -1,0 +1,193 @@
+{
+ "uri": "consult_B",
+ "duration_s": 56.68,
+ "turns": [
+  {
+   "speaker": "SPK_01",
+   "start": 0.57096875,
+   "end": 4.55346875,
+   "overlap": false,
+   "text": "স্যার আমার ছেলেকে নিয়ে এসেছি গতকাল থেকে পাতলা পায়খানা হচ্ছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 5.076593750000001,
+   "end": 7.050968750000001,
+   "overlap": false,
+   "text": "আচ্ছা বসুন বাচ্চার বয়স কত",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 7.202843750000001,
+   "end": 7.96221875,
+   "overlap": false,
+   "text": "চার বছর",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 8.56971875,
+   "end": 10.61159375,
+   "overlap": false,
+   "text": "দিনে কয়েকবার পাতলা ব্যাখ্যান হচ্ছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 10.965968750000002,
+   "end": 15.167843750000003,
+   "overlap": false,
+   "text": "হ্যারি ছয় সাত বার আর রাতে একবার হোমিও করেছে তার পথে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 15.20159375,
+   "end": 15.910343750000003,
+   "overlap": false,
+   "text": "জ্বর আছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 16.19721875,
+   "end": 17.22659375,
+   "overlap": false,
+   "text": "হ্যাঁ একটু জ্বর আছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 17.93534375,
+   "end": 19.80846875,
+   "overlap": false,
+   "text": "হুম প্রস্তাব ঠিকমতো হচ্ছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 19.926593750000002,
+   "end": 20.922218750000003,
+   "overlap": false,
+   "text": "না কম হচ্ছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 21.614093750000002,
+   "end": 23.132843750000003,
+   "overlap": false,
+   "text": "কিছু খাওয়ানো হয়েছিল কোন ওষুধ",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 24.617843750000002,
+   "end": 28.87034375,
+   "overlap": false,
+   "text": "ফার্মেসি থেকে একটা সিরাপ দিয়েছিল ব্যাটোনিডাজার মনে হয়",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 32.66721875,
+   "end": 37.96596875,
+   "overlap": false,
+   "text": "ঠিক আছে ওর একটু ডিহাইড্রেশন হচ্ছে প্রতিবার পায়খানার পর আধা কাপ ওর স্যালাইন খাওয়াবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 38.32034375,
+   "end": 38.759093750000005,
+   "overlap": false,
+   "text": "চিল",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 39.282218750000006,
+   "end": 43.78784375,
+   "overlap": false,
+   "text": "আর জিন্স সিরাপ দিচ্ছি দশ দিন খাওয়াবেন অ্যান্টিবায়োটিক এখন দরকার নেই",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 43.99034375,
+   "end": 44.61471875,
+   "overlap": false,
+   "text": "আচ্ছা",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 45.57659375,
+   "end": 46.20096875,
+   "overlap": false,
+   "text": "স্যার",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 46.92659375,
+   "end": 48.563468750000006,
+   "overlap": false,
+   "text": "স্টুডেন্টের টেস্ট করাতে হবে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPK_00",
+   "start": 49.12034375,
+   "end": 54.351593750000006,
+   "overlap": false,
+   "text": "এখন না যদি দুই দিনে ভালো না হয় বা পাতলা মেখানোর সাথে রক্ত যায় তখন টেস্ট করাবো",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPK_01",
+   "start": 55.02659375,
+   "end": 56.32596875,
+   "overlap": false,
+   "text": "ঠিক আছে ধন্যবাদ স্যার",
+   "role": "Attendant"
+  }
+ ],
+ "roles": {
+  "SPK_01": "Attendant",
+  "SPK_00": "Doctor"
+ },
+ "role_features": {
+  "SPK_01": {
+   "words": 49,
+   "doctor_words": 2,
+   "polite_2nd": 0,
+   "address_doctor": 4,
+   "about_other": 1,
+   "symptoms": 2,
+   "first_person": 0,
+   "doctor_score": -0.12244897959183673,
+   "patient_score": 1.0,
+   "attendant_score": 1.5
+  },
+  "SPK_00": {
+   "words": 63,
+   "doctor_words": 15,
+   "polite_2nd": 3,
+   "address_doctor": 0,
+   "about_other": 3,
+   "symptoms": 2,
+   "first_person": 0,
+   "doctor_score": 0.2857142857142857,
+   "patient_score": 1.0,
+   "attendant_score": 4.5
+  }
+ },
+ "timing_s": {
+  "diarization": 2.8,
+  "asr": 12.7,
+  "total": 15.6
+ }
+}

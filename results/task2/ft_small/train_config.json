@@ -1,0 +1,19 @@
+{
+  "run": "ft_small",
+  "base": "openai/whisper-small",
+  "train_csv": "/content/drive/MyDrive/Aimscribe/code/data/asr/train.csv",
+  "dev_speakers": 6,
+  "max_steps": 800,
+  "lr": 1e-05,
+  "batch": 8,
+  "grad_accum": 2,
+  "eval_steps": 100,
+  "spec_augment": false,
+  "work_dir": "/content/ckpt",
+  "save_to": "/content/drive/MyDrive/Aimscribe/checkpoints",
+  "seed": 42,
+  "best_checkpoint": "/content/ckpt/ft_small/checkpoint-600",
+  "best_dev_wer": 56.95067264573991,
+  "train_utts": 1481,
+  "dev_utts": 142
+}

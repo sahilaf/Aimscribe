@@ -1,0 +1,18 @@
+consult	scenario	speaker	role	voice	style	noise_snr_db
+S01	asthma; patient speaks first; 2 speakers	Patient	Patient	Rashmi	speaks at a moderate pace with a slightly worried tone
+S01		Doctor	Doctor	Arjun	speaks calmly at a moderate pace
+S02	diabetic foot; attendant (son) first; patient silent	Attendant	Attendant	Arnav	speaks a little fast
+S02		Doctor	Doctor	Aditi	speaks clearly at a moderate pace
+S03	child fever; two attendants + child patient + nurse (Other)	Doctor	Doctor	Arjun	speaks calmly at a moderate pace
+S03		Attendant 1	Attendant	Riya	speaks fast with an anxious tone
+S03		Attendant 2	Attendant	Tapan	speaks slowly with a low pitch
+S03		Patient	Patient	Aditi	speaks softly with a high pitch
+S03		Nurse	Other	Rashmi	speaks quickly
+S04	knee pain; elderly patient first + daughter both talk	Patient	Patient	Rashmi	speaks slowly with a low pitch
+S04		Attendant	Attendant	Riya	speaks at a moderate pace
+S04		Doctor	Doctor	Tapan	speaks calmly with a low pitch
+S05	urine infection; doctor first; many overlaps and backchannels	Doctor	Doctor	Aditi	speaks fast
+S05		Patient	Patient	Arnav	speaks at a moderate pace
+S06	blood pressure follow-up; background noise; patient + wife	Patient	Patient	Tapan	speaks slowly	10
+S06		Attendant	Attendant	Aditi	speaks at a moderate pace	10
+S06		Doctor	Doctor	Arnav	speaks clearly at a moderate pace	10

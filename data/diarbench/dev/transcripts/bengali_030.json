@@ -1,0 +1,644 @@
+[
+ {
+  "speaker": "SPEAKER_06",
+  "start": 0.516,
+  "end": 3.36,
+  "text": "কেউ একটু স্ল্যাকটা(slack) খোলো, কারণ আমি তো দেখতে পাচ্ছি না।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 4.996,
+  "end": 7.392,
+  "text": "হ্যাঁ লিখেছে ওরা, ক্যান-স্টপ-নাও(can stop now)."
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 5.124,
+  "end": 5.664,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 7.844,
+  "end": 8.384,
+  "text": "এখন?"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 8.196,
+  "end": 11.04,
+  "text": "ও লিখে দিয়েছে! <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 9.284,
+  "end": 9.728,
+  "text": "হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 9.796,
+  "end": 11.008,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 10.084,
+  "end": 15.52,
+  "text": "আচ্ছা, ঠিক আছে, লেট-আস-স্টপ-দেন(let us stop then)। কিন্তু এখনো তিন(3)-টে প্রশ্ন বাকি ছিল তাই..."
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 12.484,
+  "end": 14.08,
+  "text": "ওকে-লেট-আস-স্টপ। (Okay, let us stop)"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 15.204,
+  "end": 17.376,
+  "text": "হ্যাঁ তাহলে চলুক, চলুক <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 15.332,
+  "end": 16.0,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 16.74,
+  "end": 18.208,
+  "text": "না না না না না, ঠিক আছে, ঠিক আছে।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 17.06,
+  "end": 20.96,
+  "text": "<unintelligible> তিন(3)টে কোয়েশ্চেন(question) করে দাও, না হলে আবার ওটা <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 20.452,
+  "end": 21.088,
+  "text": "হ্যাঁ, হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 20.516,
+  "end": 22.464,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 20.932,
+  "end": 24.928,
+  "text": "শর্টের(short) মধ্যে, শর্ট(short) শর্ট(short) করে, করে দিলেই তো হয়।"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 21.508,
+  "end": 21.952,
+  "text": "হ্যাঁ"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 23.204,
+  "end": 24.32,
+  "text": "ঠিক আছে, <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 23.46,
+  "end": 25.76,
+  "text": "একটু ফাইভ(5) টেন(10) মিনিট্‌স(minutes) আমরা এক্সটেন্ড(extend) করতে পারি।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 25.508,
+  "end": 34.144,
+  "text": "ঠিক আছে তাহলে ছোট। ঠিক আছে তাহলে ছোট। তাহলে ইন্ডিয়ার(India) কোন স্টেটের(state) খাবার সবচেয়ে বেশি আন্ডাররেটেড(underrated)? তোমাদের মধ্যে কোনটা মনে হয়? আন্ডাররেটেড(underrated) হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 25.508,
+  "end": 26.784,
+  "text": "মেইনলি(mainly) দরকার ডেটা(data)-টা।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 27.844,
+  "end": 28.32,
+  "text": "হুম।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 32.324,
+  "end": 33.12,
+  "text": "আন্ডাররেটেড(underrated)?"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 33.828,
+  "end": 34.656,
+  "text": "ওড়িশা।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 35.524,
+  "end": 35.872,
+  "text": "আর?"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 36.484,
+  "end": 39.584,
+  "text": "না না মোটেও আন্ডাররেটেড(underrated) ওড়িশা না, বিহার আই-থিঙ্ক(I think.)।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 39.524,
+  "end": 40.864,
+  "text": "ওড়িশা আন্ডাররেটেড(underrated)."
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 40.836,
+  "end": 44.032,
+  "text": "না বিহার নয়, বিহারের অনেক ডিশেস(dishes) আছে যেগুলো খুব টেস্টি(tasty)।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 40.996,
+  "end": 42.272,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 44.228,
+  "end": 44.64,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 44.932,
+  "end": 45.28,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 45.54,
+  "end": 47.52,
+  "text": "আমি বিলিভ(believe) করছি, ওড়িশা হতে পারে।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 48.196,
+  "end": 48.896,
+  "text": "নর্থ-ইস্ট(North East)?"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 48.58,
+  "end": 53.28,
+  "text": "ওড়িশা খাবারের জন্য বিখ্যাত; ওরা হতেই পারে না। ওরা, ওড়িশা ভীষণ..."
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 49.86,
+  "end": 55.648,
+  "text": "<unintelligible> নর্থ-ইস্ট(North East) কিন্তু শুধু আসাম নয়। অনেকগুলো জায়গার খুবই আন্ডাররেটেড(underrated)"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 51.3,
+  "end": 52.064,
+  "text": "নর্থ-ইস্ট(North east)?"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 55.108,
+  "end": 59.328,
+  "text": "না, আমি নাগাল্যান্ড(Nagaland), অরুণাচল(Arunachal), নাগাল্যান্ড(Nagaland), মণিপুর(Manipur)..."
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 57.444,
+  "end": 60.352,
+  "text": "আন্ডাররেটেড(underrated) <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 57.796,
+  "end": 61.856,
+  "text": "রাইট(Right)। খুবই আন্ডাররেটেড(underrated)। আমরা জানি না। আমরা জানিই না নর্থ-ইস্টের(north east) খাবার <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 60.388,
+  "end": 68.736,
+  "text": "মানে আন্ডাররেটেড(underrated) আমার বলার অধিকার কোনো, কোনো রকম ভাবেই নেই। আমি বলতে পারি এই কারণেই যে, আমার খাদ্যাভ্যাস আলাদা, একটা খাদ্যাভ্যাস আলাদা। আমার যেটা..."
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 67.492,
+  "end": 71.328,
+  "text": "না না কিন্তু মেইনস্ট্রিম(mainstream) মেইনস্ট্রিম(mainstream) ইন্ডিয়াতে(India) সেটা নেই সেই অর্থে।"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 68.324,
+  "end": 70.336,
+  "text": "না আন্ডাররেটেড(underrated)-এর মানেই তো আলাদা।"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 71.588,
+  "end": 76.0,
+  "text": "কিন্তু আন্ডাররেটেড(underrated)-এর মানে আলাদা। মানে কাউকে <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 74.052,
+  "end": 76.896,
+  "text": "একদমই তাই। আন্ডাররেটেড(underrated) মানে যেটা গ্রহণযোগ্য নয়।"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 74.5,
+  "end": 81.056,
+  "text": "মানে ওটা ভালো, কিন্তু লোকের ওটা, হ্যাঁ। ইয়েস(yes)। অতটা ওটা প্রচলিত হয়নি, অত ফেমাস(famous) হয়নি।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 76.484,
+  "end": 79.392,
+  "text": "ভালো, কিন্তু লোকের কাছে এতটা প্রচলিত নয়।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 78.372,
+  "end": 79.2,
+  "text": "গ্রহণযোগ্যই নয়।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 79.044,
+  "end": 85.888,
+  "text": "<unintelligible> হ্যাঁ। ঠিক। ঠিক। দেন নর্থ-ইস্ট-ইট-ইজ(North East it is)। মানে আমি আমার হিসেবে ধরছি, কিন্তু বাকিরা <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 79.172,
+  "end": 80.032,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 81.86,
+  "end": 82.464,
+  "text": "হ্যাঁ।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 85.22,
+  "end": 88.448,
+  "text": "হ্যাঁ নর্থ(north) <unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 87.14,
+  "end": 97.472,
+  "text": "ঠিক আছে, আমি পরের প্রশ্নে জাম্প(jump) করে যাচ্ছি। যদি এলিয়েন্‌স(Aliens) পৃথিবীতে আসে এবং আপনাদের শুধুমাত্র এক(1)টা সিনেমা(cinema) দেখিয়ে তাদেরকে মানব সভ্যতা বোঝাতে হয়, তবে কোন সিনেমা(cinema) দেখতে বলবে এবং কেন?"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 98.724,
+  "end": 99.456,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 98.916,
+  "end": 99.904,
+  "text": "মানব কী<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 100.804,
+  "end": 107.296,
+  "text": "মানব সভ্যতায় যদি এলিয়েন(Alien)-কে দেখানো হয় বা বোঝানো যেতে হয়, তাহলে কোন সিনেমা(cinema)-টা দেখাতে চাইবে? এবং কেন দেখাতে চাইবে?"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 101.028,
+  "end": 101.568,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 101.54,
+  "end": 102.752,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 113.06,
+  "end": 115.648,
+  "text": "একটু রোমান্টিক(romantic) করতে চাইবো, ডি-ডি-এল-জে(DDLJ) দেখিয়ে।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 116.068,
+  "end": 118.176,
+  "text": "এ বাবা, কিন্তু এলিয়েন(alien) থাকতে হবে তো..."
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 117.604,
+  "end": 118.464,
+  "text": "দ্যা-পিয়ানিস্ট(The-Pianist)।"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 118.82,
+  "end": 120.256,
+  "text": "না ওই যে..."
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 120.868,
+  "end": 122.144,
+  "text": "বা পার্ল-হারবার(Pearl-Harbor)।"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 121.668,
+  "end": 122.88,
+  "text": "ওই সিনেমা(cinema)-র নামটা ভুলে..."
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 123.588,
+  "end": 124.64,
+  "text": "এলিয়েন(Alien) থাকতে হবে।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 125.572,
+  "end": 128.448,
+  "text": "এলিয়েন(Alien) থাকতে হবে? ও তাহলে তো ওই..."
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 125.604,
+  "end": 130.112,
+  "text": "না, ওই যে... আমি, হ্যাঁ পি-কে(PK), পি-কে(PK), ওইটাই বলতে গেছিলাম।"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 126.116,
+  "end": 127.136,
+  "text": "তাহলে পি-কে(PK)।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 128.836,
+  "end": 136.128,
+  "text": "আর আর? একটা খুবই ভালো ইংরেজি সিনেমা(cinema) আছে। হ্যাঁ কারেক্ট(correct)।"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 129.22,
+  "end": 129.984,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 130.564,
+  "end": 131.008,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 132.292,
+  "end": 140.096,
+  "text": "বা জাদু ছিল কোন... ও ইংলিশে(english)। না ইংলিশে(english)। অ্যাভাটার(Avatar) অ্যাভাটার(Avatar)। অ্যাভাটার(Avatar)।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 134.052,
+  "end": 137.152,
+  "text": "হ্যাঁ হ্যাঁ ওই যে যা, ঋত্বিক রোশনের সিনেমা(cinema)টা।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 135.844,
+  "end": 136.64,
+  "text": "পার্ল-হারবার(Pearl-Harbor)।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 137.508,
+  "end": 137.952,
+  "text": "বেশ।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 137.668,
+  "end": 138.752,
+  "text": "নাহলে চিত্রাঙ্গদা।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 139.94,
+  "end": 140.736,
+  "text": "চিত্রাঙ্গদা।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 141.06,
+  "end": 142.08,
+  "text": "চিত্রাঙ্গদা কেন?"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 143.876,
+  "end": 145.28,
+  "text": "বুঝতে গেলেই তো ওদের মাথা খারাপ হয়ে যাবে।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 145.636,
+  "end": 165.472,
+  "text": "এ বাবা। আচ্ছা ঠিক আছে, এলিয়েন(alien) থাকতে হবে, সো(so) চিত্রাঙ্গদা হবে না। হ্যাঁ। ঠিক আছে এবার আমি একদম লাস্ট(last) প্রশ্নে জাম্প(jump) করে যাচ্ছি। তোমাকে যদি চব্বিশ(24) ঘন্টা একটা(1) সুপার-পাওয়ার(super power) দেওয়া হয়, তুমি কী চুজ (choose) করবে? ওড়ার শক্তি, উধাও হওয়ার শক্তি, মন পড়ার শক্তি নাকি পশু পাখির সাথে কথা বলার শক্তি?"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 146.308,
+  "end": 146.752,
+  "text": "<laughter>"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 147.14,
+  "end": 150.656,
+  "text": "না না এলিয়েন(alien) থাকতে হবে ওখানে। অ্যাভাটার(Avatar)।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 150.82,
+  "end": 152.192,
+  "text": "ও! এলিয়েন(alien) থাকতে হবে?"
+ },
+ {
+  "speaker": "SPEAKER_05",
+  "start": 165.604,
+  "end": 168.032,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 165.956,
+  "end": 167.072,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 166.34,
+  "end": 168.512,
+  "text": "পশু-পাখির সাথে, কথা বলার শখ।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 167.556,
+  "end": 169.12,
+  "text": "ওড়, ওড়ার শক্তি।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 168.292,
+  "end": 170.048,
+  "text": "একদম, ওড়ার শক্তি।"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 170.244,
+  "end": 180.992,
+  "text": "ওড়ার শক্তি, হ্যাঁ। আমি, আমি তো আরেকবার, আরেকবার <unintelligible> চাই। এই মন পড়ার শক্তি কেউ নিও না প্লিজ(please)। তাহলে আর বাঁচতে হবে না।"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 170.916,
+  "end": 174.368,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 172.804,
+  "end": 173.344,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_07",
+  "start": 173.06,
+  "end": 173.408,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 173.476,
+  "end": 175.584,
+  "text": "আমি তো আরেকবার...<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 175.14,
+  "end": 176.768,
+  "text": "আমি মন পড়ার শক্তি..."
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 176.868,
+  "end": 178.08,
+  "text": "এক্স্যাক্টলি। (exactly)"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 178.884,
+  "end": 179.2,
+  "text": "<noise>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 179.62,
+  "end": 180.032,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_01",
+  "start": 180.324,
+  "end": 180.704,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 182.116,
+  "end": 182.656,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 182.116,
+  "end": 186.432,
+  "text": "তাও দেখা যাক না, কে কী ভাবছে, কার মনে কতটা নেগেটিভ(negative)।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 183.3,
+  "end": 185.408,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 184.292,
+  "end": 185.28,
+  "text": "<unintelligible>"
+ },
+ {
+  "speaker": "SPEAKER_02",
+  "start": 184.676,
+  "end": 190.56,
+  "text": "<unintelligible> তুমি, মানে এত বিরক্ত হয়ে যাবে যে মনে হবে, আমি আর বেঁচে আর লাভ নেই।"
+ },
+ {
+  "speaker": "SPEAKER_06",
+  "start": 190.756,
+  "end": 192.544,
+  "text": "না না, আমি, আমি খুব ইন্টারেস্টেড(interested)।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 190.98,
+  "end": 197.984,
+  "text": "একটু কনসেন্ট্রেশন(concentration) করলে, কিন্তু মন <unintelligible> করতে পাওয়া যায়। এটা কিন্তু আনন্যাচারাল(unnatural) নয়।"
+ },
+ {
+  "speaker": "SPEAKER_03",
+  "start": 192.932,
+  "end": 195.68,
+  "text": "হ্যাঁ, আমিও, আমিও ইন্টারেস্টেড(interested) এইটাই।"
+ },
+ {
+  "speaker": "SPEAKER_04",
+  "start": 197.732,
+  "end": 206.37,
+  "text": "কিন্তু পশুপাখির মন পড়াটা, খুব একটা মানে, পিওর(pure) জিনিস হবে। মানে কনসিডারিং(considering) এখন যেটা রিসেন্ট(recent) হচ্ছে,  ডগ্‌স(dogs)-দের সাথে।"
+ },
+ {
+  "speaker": "SPEAKER_08",
+  "start": 201.988,
+  "end": 202.528,
+  "text": "হ্যাঁ।"
+ }
+]

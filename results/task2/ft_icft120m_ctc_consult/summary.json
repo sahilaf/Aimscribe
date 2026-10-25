@@ -1,0 +1,41 @@
+{
+ "model": "/content/aimscribe/results/task2/icft_120m/indicconformer_bn_120m_ft.nemo",
+ "pad": 0.0,
+ "max_new_tokens": 128,
+ "num_beams": 1,
+ "vad_gate": false,
+ "vad_crop": false,
+ "prompt": null,
+ "WER%,CER%,lines": {
+  "ALL": [
+   23.5,
+   9.4,
+   46
+  ],
+  "SHORT": [
+   27.8,
+   15.8,
+   15
+  ],
+  "EN": [
+   25.5,
+   8.2,
+   11
+  ],
+  "MED": [
+   29.6,
+   8.7,
+   12
+  ],
+  "OVERLAP": [
+   50.0,
+   14.7,
+   4
+  ],
+  "untagged": [
+   16.7,
+   7.6,
+   15
+  ]
+ }
+}

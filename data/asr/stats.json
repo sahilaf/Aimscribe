@@ -1,0 +1,10 @@
+{
+  "dropped_text": 645,
+  "test_utts": 390,
+  "test_speakers": 15,
+  "test_minutes": 18.2,
+  "train_utts": 1623,
+  "train_speakers": 65,
+  "train_minutes": 79.9,
+  "speaker_overlap_train_test": 0
+}

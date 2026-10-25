@@ -1,0 +1,42 @@
+{
+ "model": "C:/Users/sahil/aimscribe_data/models/whisper-small-bn-ft",
+ "pad": 0.0,
+ "max_new_tokens": 440,
+ "num_beams": 1,
+ "vad_gate": false,
+ "vad_crop": false,
+ "prompt": null,
+ "noise_snr": 5.0,
+ "WER%,CER%,lines": {
+  "ALL": [
+   94.1,
+   61.6,
+   46
+  ],
+  "SHORT": [
+   98.1,
+   72.9,
+   15
+  ],
+  "EN": [
+   87.3,
+   54.0,
+   11
+  ],
+  "MED": [
+   91.8,
+   57.0,
+   12
+  ],
+  "OVERLAP": [
+   100.0,
+   67.6,
+   4
+  ],
+  "untagged": [
+   98.9,
+   64.8,
+   15
+  ]
+ }
+}

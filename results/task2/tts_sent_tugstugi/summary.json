@@ -1,0 +1,102 @@
+{
+ "model": "bengaliAI/tugstugi_bengaliai-asr_whisper-medium",
+ "backend": "whisper",
+ "ALL": {
+  "WER%": 15.7,
+  "CER%": 3.7,
+  "term_acc%": 57.9,
+  "term_acc_ignoring_spaces%": 65.6,
+  "clips": 600
+ },
+ "MED": {
+  "WER%": 22.4,
+  "CER%": 5.1,
+  "term_acc%": 58.1,
+  "term_acc_ignoring_spaces%": 64.9,
+  "clips": 324
+ },
+ "EN": {
+  "WER%": 22.7,
+  "CER%": 5.1,
+  "term_acc%": 57.4,
+  "term_acc_ignoring_spaces%": 65.2,
+  "clips": 330
+ },
+ "SHORT": {
+  "WER%": 9.8,
+  "CER%": 2.4,
+  "clips": 60
+ },
+ "untagged": {
+  "WER%": 5.7,
+  "CER%": 1.2,
+  "term_acc%": 100.0,
+  "term_acc_ignoring_spaces%": 100.0,
+  "clips": 210
+ },
+ "by_voice": {
+  "Aditi": {
+   "WER%": 15.0,
+   "CER%": 3.7,
+   "term_acc%": 61.1,
+   "term_acc_ignoring_spaces%": 64.2,
+   "clips": 100
+  },
+  "Arjun": {
+   "WER%": 15.7,
+   "CER%": 4.0,
+   "term_acc%": 57.9,
+   "term_acc_ignoring_spaces%": 64.2,
+   "clips": 100
+  },
+  "Arnav": {
+   "WER%": 15.2,
+   "CER%": 3.3,
+   "term_acc%": 56.8,
+   "term_acc_ignoring_spaces%": 65.3,
+   "clips": 100
+  },
+  "Rashmi": {
+   "WER%": 16.0,
+   "CER%": 3.4,
+   "term_acc%": 55.8,
+   "term_acc_ignoring_spaces%": 66.3,
+   "clips": 100
+  },
+  "Riya": {
+   "WER%": 18.3,
+   "CER%": 5.0,
+   "term_acc%": 50.5,
+   "term_acc_ignoring_spaces%": 60.0,
+   "clips": 100
+  },
+  "Tapan": {
+   "WER%": 14.1,
+   "CER%": 3.0,
+   "term_acc%": 65.3,
+   "term_acc_ignoring_spaces%": 73.7,
+   "clips": 100
+  }
+ },
+ "most_missed_terms": {
+  "ফাইভ হান্ড্রেড": 10,
+  "সালবিউটামল": 10,
+  "সেফিক্সিম": 6,
+  "মেটফরমিন": 6,
+  "ইসোমিপ্রাজল": 6,
+  "ডমপেরিডন": 6,
+  "সিপ্রোফ্লক্সাসিন": 6,
+  "সেটিরিজিন": 6,
+  "অ্যাটোরভাস্টাটিন": 6,
+  "টুয়েন্টি": 6,
+  "ক্লোপিডোগ্রেল": 6,
+  "লেভোথাইরক্সিন": 6,
+  "প্যান্টোপ্রাজল": 6,
+  "ফ্লুকোনাজল": 6,
+  "ক্লোট্রিমাজল": 6
+ },
+ "term_acc_seen_in_training%": 56.1,
+ "terms_seen_in_training": 228,
+ "term_acc_unseen%": 50.9,
+ "terms_unseen": 222
+}

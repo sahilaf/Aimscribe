@@ -1,0 +1,138 @@
+[
+ {
+  "line": "S03-01",
+  "speaker": "Nurse",
+  "role": "Other",
+  "start": 0.5,
+  "end": 2.3,
+  "text": "পরের জন আসুন, সাত নম্বর।"
+ },
+ {
+  "line": "S03-02",
+  "speaker": "Attendant_1",
+  "role": "Attendant",
+  "start": 2.939,
+  "end": 6.239,
+  "text": "ডাক্তার সাহেব, আমার মেয়েটার তিন দিন ধরে জ্বর, কিছুতেই কমছে না।"
+ },
+ {
+  "line": "S03-03",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 6.663,
+  "end": 8.32,
+  "text": "বসুন। ওর বয়স কত?"
+ },
+ {
+  "line": "S03-04",
+  "speaker": "Attendant_2",
+  "role": "Attendant",
+  "start": 8.697,
+  "end": 12.093,
+  "text": "আট বছর। রাতে জ্বর একশো চার পর্যন্ত উঠেছিল।"
+ },
+ {
+  "line": "S03-05",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 12.502,
+  "end": 14.191,
+  "text": "মা, তোমার কোথায় কষ্ট হচ্ছে বলো তো?"
+ },
+ {
+  "line": "S03-06",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 14.48,
+  "end": 16.966,
+  "text": "আমার মাথা ব্যথা করে আর গায়ে খুব ব্যথা।"
+ },
+ {
+  "line": "S03-07",
+  "speaker": "Attendant_1",
+  "role": "Attendant",
+  "start": 16.366,
+  "end": 18.76,
+  "text": "ও কিছু খেতে চাচ্ছে না, শুধু শুয়ে থাকে।"
+ },
+ {
+  "line": "S03-08",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 19.23,
+  "end": 21.682,
+  "text": "গায়ে কোনো র‍্যাশ বা লাল দাগ দেখেছেন?"
+ },
+ {
+  "line": "S03-09",
+  "speaker": "Attendant_2",
+  "role": "Attendant",
+  "start": 22.397,
+  "end": 23.681,
+  "text": "না, এখনো দেখিনি।"
+ },
+ {
+  "line": "S03-10",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 24.143,
+  "end": 29.01,
+  "text": "ডেঙ্গুর সময় চলছে। আজকেই সিবিসি আর ডেঙ্গু এনএস ওয়ান টেস্ট করাবেন।"
+ },
+ {
+  "line": "S03-11",
+  "speaker": "Attendant_1",
+  "role": "Attendant",
+  "start": 27.65,
+  "end": 28.15,
+  "text": "জি।"
+ },
+ {
+  "line": "S03-12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 29.787,
+  "end": 34.087,
+  "text": "জ্বরের জন্য প্যারাসিটামল সিরাপ দুই চামচ, ছয় ঘণ্টা পরপর।"
+ },
+ {
+  "line": "S03-13",
+  "speaker": "Attendant_2",
+  "role": "Attendant",
+  "start": 34.452,
+  "end": 36.839,
+  "text": "ব্যথার জন্য কি আইবুপ্রোফেন দেওয়া যাবে?"
+ },
+ {
+  "line": "S03-14",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 37.589,
+  "end": 41.982,
+  "text": "না, ডেঙ্গু না বোঝা পর্যন্ত আইবুপ্রোফেন একদম দেবেন না।"
+ },
+ {
+  "line": "S03-15",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 42.491,
+  "end": 43.891,
+  "text": "আমি কি স্কুলে যেতে পারব?"
+ },
+ {
+  "line": "S03-16",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 44.68,
+  "end": 48.973,
+  "text": "এই সপ্তাহে না, বাসায় বিশ্রাম নেবে আর বেশি করে পানি খাবে।"
+ },
+ {
+  "line": "S03-17",
+  "speaker": "Attendant_1",
+  "role": "Attendant",
+  "start": 49.442,
+  "end": 51.231,
+  "text": "ঠিক আছে, ধন্যবাদ ডাক্তার সাহেব।"
+ }
+]

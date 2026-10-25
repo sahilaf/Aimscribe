@@ -1,0 +1,171 @@
+{
+ "uri": "S02",
+ "duration_s": 51.75,
+ "turns": [
+  {
+   "speaker": "SPEAKER_00",
+   "start": 0.55409375,
+   "end": 2.10659375,
+   "overlap": false,
+   "text": "আসসালামু অলাইকুম মারম",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 2.76471875,
+   "end": 6.00471875,
+   "overlap": false,
+   "text": "আমার আব্বাকে নিয়ে এসেছি ওনার পায়ে একটা ঘা হয়েছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 6.679718750000001,
+   "end": 9.059093750000002,
+   "overlap": false,
+   "text": "ওয়ালাইকুম আসসালাম ঘা কতদিনে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 9.83534375,
+   "end": 12.704093750000002,
+   "overlap": false,
+   "text": "প্রায় তিন সপ্তাহ শুকাচ্ছে না বরং বড় হচ্ছে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 13.244093750000001,
+   "end": 14.57721875,
+   "overlap": false,
+   "text": "ওনার কি ডায়াবেটিস আছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 15.167843750000003,
+   "end": 19.30221875,
+   "overlap": false,
+   "text": "জি দশ বছরের ডায়াবেটিস উনি গ্লিক্লাজাইড আশি মিলিগ্রাম খান",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 19.94346875,
+   "end": 21.512843750000002,
+   "overlap": false,
+   "text": "সুগার শেষ কবে মেপেছিলেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 21.95159375,
+   "end": 24.33096875,
+   "overlap": false,
+   "text": "গত সপ্তাহে খালি পেটে বারো ছিল",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 24.90471875,
+   "end": 28.16159375,
+   "overlap": false,
+   "text": "অনেক বেশি পায়ে কি ব্যথা টের পান না অবশ্য লাগে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 28.735343750000002,
+   "end": 31.13159375,
+   "overlap": true,
+   "text": "উনি বলেন পায়ে তেমন কিছু টের পান",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 30.86159375,
+   "end": 33.40971875,
+   "overlap": true,
+   "text": "এটা ডায়াবেটিক ফুড ড্রেসিং করতে হবে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 33.713468750000004,
+   "end": 35.51909375,
+   "overlap": false,
+   "text": "আর একটা কালচার টেস্ট রাখবি",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 36.04221875,
+   "end": 40.21034375,
+   "overlap": false,
+   "text": "ইনসুলিন শুরু করা দরকার আর এইচবিএন সি টেস্ট করাবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 40.986593750000004,
+   "end": 43.01159375,
+   "overlap": false,
+   "text": "ইনসুলিন কি সারা জীবন নিতে হবে",
+   "role": "Attendant"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 43.95659375,
+   "end": 48.74909375,
+   "overlap": false,
+   "text": "সেটা রিপোর্ট দেখে বলব পা সবসময় পরিষ্কার আর শুকনো রাখবেন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 49.44096875,
+   "end": 50.993468750000005,
+   "overlap": false,
+   "text": "ঠিক আছে ম্যাডাম ধন্যবাদ",
+   "role": "Attendant"
+  }
+ ],
+ "roles": {
+  "SPEAKER_00": "Attendant",
+  "SPEAKER_01": "Doctor"
+ },
+ "role_features": {
+  "SPEAKER_00": {
+   "words": 52,
+   "doctor_words": 1,
+   "polite_2nd": 1,
+   "address_doctor": 1,
+   "about_other": 4,
+   "symptoms": 1,
+   "first_person": 1,
+   "own_symptoms": 0,
+   "doctor_score": 0.0,
+   "patient_score": 1.0,
+   "attendant_score": 6.0
+  },
+  "SPEAKER_01": {
+   "words": 52,
+   "doctor_words": 5,
+   "polite_2nd": 3,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 2,
+   "first_person": 0,
+   "own_symptoms": 0,
+   "doctor_score": 0.15384615384615385,
+   "patient_score": 0.0,
+   "attendant_score": 1.5
+  }
+ },
+ "timing_s": {
+  "diarization": 8.8,
+  "asr": 34.3,
+  "total": 43.3
+ }
+}

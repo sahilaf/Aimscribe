@@ -1,0 +1,13 @@
+{
+  "inspect": false,
+  "run": "icft_120m",
+  "max_steps": 1500,
+  "lr": 5e-05,
+  "batch": 8,
+  "real_ratio": 1.0,
+  "val_every": 250,
+  "train_clips": 2024,
+  "tts_clips": 1012,
+  "best_ckpt": "/content/aimscribe/results/task2/icft_120m/ckpt/epoch=2-step=750.ckpt",
+  "best_val_wer": 0.1547388732433319
+}

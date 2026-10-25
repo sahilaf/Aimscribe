@@ -1,0 +1,11 @@
+{
+  "method": "segment-level re-clustering",
+  "embedding": "pyannote/wespeaker-voxceleb-resnet34-LM",
+  "src": "baseline",
+  "run": "rc_t0.70",
+  "threshold": 0.7,
+  "num_speakers": null,
+  "min_dur": 1.0,
+  "wav_dir": "C:\\Users\\sahil\\aimscribe_data\\diarization\\wav",
+  "ref_dir": "C:\\Users\\sahil\\Dropbox\\PC\\Documents\\projects\\Aimscribe\\data\\diarization\\rttm"
+}

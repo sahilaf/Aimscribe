@@ -1,0 +1,222 @@
+{
+ "uri": "consult_B",
+ "duration_s": 56.68,
+ "turns": [
+  {
+   "speaker": "SPEAKER_01",
+   "start": 0.57096875,
+   "end": 4.55346875,
+   "overlap": false,
+   "text": "সার আমন ছেলেকে নিয়েসেছি গতকালতিকে পাতলাপাকান হজেছে",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 5.076593750000001,
+   "end": 7.050968750000001,
+   "overlap": false,
+   "text": "আচশা বস্য ভাচ্ছার বয়শকত",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 7.202843750000001,
+   "end": 7.96221875,
+   "overlap": false,
+   "text": "চার বচ্য",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 8.56971875,
+   "end": 10.61159375,
+   "overlap": false,
+   "text": "দিনে কয়ে বার পাতলা বাহাহানা হচ্য",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 10.965968750000002,
+   "end": 15.15096875,
+   "overlap": false,
+   "text": "প্রাড়ীশ চাঁহিসান্যাড় আর্ড়াতে এইঙ্ভার বমিয় করেছে তার পথে",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 15.20159375,
+   "end": 15.910343750000003,
+   "overlap": false,
+   "text": "জড়াসে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 16.19721875,
+   "end": 17.22659375,
+   "overlap": false,
+   "text": "হ্যাকি জয়ন আছে",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 17.93534375,
+   "end": 19.80846875,
+   "overlap": false,
+   "text": "পর্সাব খিক্মত ওছে",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 19.926593750000002,
+   "end": 20.027843750000002,
+   "overlap": false,
+   "text": "মায়ায়ায় কায়ায়",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 20.027843750000002,
+   "end": 20.922218750000003,
+   "overlap": false,
+   "text": "য্যাকং অচ্যিক",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 21.614093750000002,
+   "end": 23.132843750000003,
+   "overlap": false,
+   "text": "কিছু খাওন নওয়স্যায় কনসুত",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 24.617843750000002,
+   "end": 28.87034375,
+   "overlap": false,
+   "text": "ফার্মসিকেকে একত চিরাফদ্যি ছেলো ম্যাক্ঠনি ডাজয় মামি হয়",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 32.66721875,
+   "end": 37.96596875,
+   "overlap": false,
+   "text": "ঠিকাছে অরিটু ডিহায়ে দেশন হচেপ্রতিবার পায়খানার পর আধাকাব অচচিয়া�",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_00",
+   "start": 38.32034375,
+   "end": 38.37096875,
+   "overlap": false,
+   "text": "ক্যাসায়াসায় ক্যাসায়াসায়াসায়ায়",
+   "role": "Attendant 2"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 38.37096875,
+   "end": 38.759093750000005,
+   "overlap": false,
+   "text": "চি",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 39.282218750000006,
+   "end": 43.78784375,
+   "overlap": false,
+   "text": "আর জিংসি রাবদেচি দর্ষদিন খাওয়েন এনটিবেয়াড়টিক এখন দরকার্ন",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 43.99034375,
+   "end": 44.61471875,
+   "overlap": false,
+   "text": "আচছান",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 45.57659375,
+   "end": 46.20096875,
+   "overlap": false,
+   "text": "সারেন",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 46.92659375,
+   "end": 48.563468750000006,
+   "overlap": false,
+   "text": "তুল টেশ্ট করাকি লবে",
+   "role": "Attendant 1"
+  },
+  {
+   "speaker": "SPEAKER_02",
+   "start": 49.12034375,
+   "end": 54.351593750000006,
+   "overlap": false,
+   "text": "এখন না যওদি দুই দিনে ভাল না হয় ভা পাতলা ভেখারাসাতে রক্তজায় তখন টেষ",
+   "role": "Doctor"
+  },
+  {
+   "speaker": "SPEAKER_01",
+   "start": 55.02659375,
+   "end": 56.32596875,
+   "overlap": false,
+   "text": "তিকাচে ধলন্য ভাক্সান",
+   "role": "Attendant 1"
+  }
+ ],
+ "roles": {
+  "SPEAKER_01": "Attendant 1",
+  "SPEAKER_02": "Doctor",
+  "SPEAKER_00": "Attendant 2"
+ },
+ "role_features": {
+  "SPEAKER_01": {
+   "words": 32,
+   "doctor_words": 1,
+   "polite_2nd": 0,
+   "address_doctor": 1,
+   "about_other": 1,
+   "symptoms": 1,
+   "first_person": 0,
+   "doctor_score": -0.03125,
+   "patient_score": 0.5,
+   "attendant_score": 1.5
+  },
+  "SPEAKER_02": {
+   "words": 49,
+   "doctor_words": 3,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 0,
+   "symptoms": 1,
+   "first_person": 0,
+   "doctor_score": 0.061224489795918366,
+   "patient_score": 0.5,
+   "attendant_score": 0.0
+  },
+  "SPEAKER_00": {
+   "words": 12,
+   "doctor_words": 0,
+   "polite_2nd": 0,
+   "address_doctor": 0,
+   "about_other": 1,
+   "symptoms": 0,
+   "first_person": 0,
+   "doctor_score": 0.0,
+   "patient_score": 0.0,
+   "attendant_score": 1.5
+  }
+ },
+ "timing_s": {
+  "diarization": 2.6,
+  "asr": 7.6,
+  "total": 10.2
+ }
+}

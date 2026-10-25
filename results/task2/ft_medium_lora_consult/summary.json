@@ -1,0 +1,41 @@
+{
+ "model": "/content/drive/MyDrive/Aimscribe/checkpoints/ft_medium_lora",
+ "pad": 0.0,
+ "max_new_tokens": 440,
+ "num_beams": 1,
+ "vad_gate": false,
+ "vad_crop": false,
+ "prompt": null,
+ "WER%,CER%,lines": {
+  "ALL": [
+   27.6,
+   13.0,
+   46
+  ],
+  "SHORT": [
+   37.0,
+   21.7,
+   15
+  ],
+  "EN": [
+   22.5,
+   8.8,
+   11
+  ],
+  "MED": [
+   27.6,
+   10.7,
+   12
+  ],
+  "OVERLAP": [
+   83.3,
+   29.4,
+   4
+  ],
+  "untagged": [
+   26.7,
+   13.9,
+   15
+  ]
+ }
+}

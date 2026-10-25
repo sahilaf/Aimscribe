@@ -1,0 +1,11 @@
+{
+  "method": "segment-level re-clustering",
+  "embedding": "pyannote/wespeaker-voxceleb-resnet34-LM",
+  "src": "db_dev_baseline",
+  "run": "db_dev_rc0.8",
+  "threshold": 0.8,
+  "num_speakers": null,
+  "min_dur": 1.0,
+  "wav_dir": "/content/aimscribe_data/diarbench/dev",
+  "ref_dir": "data/diarbench/dev/rttm"
+}

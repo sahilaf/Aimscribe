@@ -1,0 +1,7 @@
+# Synthetic speech (Colab T4, Python 3.12, torch 2.5.1 cu121). Two generators, two venvs (their transformers pins conflict).
+# 1) test sets, data/make_tts_tests.py: Indic Parler-TTS (6 named Bengali voices)  -> notebooks/tts_test_sets.ipynb
+#      uv pip install "git+https://github.com/huggingface/parler-tts.git" librosa soundfile silero-vad pandas matplotlib
+# 2) training set, data/make_tts_train.py --synth: IndicF5 (voice cloning from OpenSLR train speakers), NFE 16
+#                                                                                     -> notebooks/task2_asr.ipynb
+#      uv pip install "git+https://github.com/ai4bharat/IndicF5.git" librosa soundfile pandas
+#      uv pip install pyarrow==17.0.0 datasets==3.1.0 transformers==4.49.0 "accelerate<1.5"

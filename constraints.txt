@@ -1,0 +1,7 @@
+# Keep pip from silently swapping the CUDA build of torch or pulling pyannote 4.x helpers
+torch==2.5.1
+torchaudio==2.5.1
+pyannote.core==5.0.0
+pyannote.database==5.1.3
+pyannote.pipeline==3.0.1
+speechbrain==1.0.3

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 660" font-family="Segoe UI, Noto Sans Bengali, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#444"/>
+    </marker>
+    <style>
+      .box{fill:#fff;stroke:#444;stroke-width:1.5;rx:8}
+      .sd{fill:#e8f1fb;stroke:#2f6db5}
+      .asr{fill:#eaf7ec;stroke:#2e8b47}
+      .role{fill:#fdf2e3;stroke:#c27a14}
+      .io{fill:#f2f2f2;stroke:#666}
+      .t{font-size:15px;font-weight:600;fill:#222}
+      .s{font-size:12px;fill:#444}
+      .n{font-size:11.5px;fill:#2e8b47;font-style:italic}
+      .nb{font-size:11.5px;fill:#2f6db5;font-style:italic}
+      .no{font-size:11.5px;fill:#c27a14;font-style:italic}
+      .ln{stroke:#444;stroke-width:1.6;fill:none;marker-end:url(#a)}
+      .h{font-size:20px;font-weight:700;fill:#222}
+    </style>
+  </defs>
+
+  <text x="30" y="38" class="h">AIMScribe prototype: Bengali consultation → speaker-attributed, role-labelled transcript</text>
+
+  <!-- input -->
+  <rect x="30" y="70" width="170" height="90" class="box io"/>
+  <text x="115" y="102" text-anchor="middle" class="t">Recording</text>
+  <text x="115" y="122" text-anchor="middle" class="s">phone / clinic mic</text>
+  <text x="115" y="140" text-anchor="middle" class="s">m4a, mp3, wav…</text>
+
+  <rect x="240" y="70" width="170" height="90" class="box io"/>
+  <text x="325" y="102" text-anchor="middle" class="t">Pre-processing</text>
+  <text x="325" y="122" text-anchor="middle" class="s">ffmpeg → mono</text>
+  <text x="325" y="140" text-anchor="middle" class="s">16 kHz float32</text>
+  <path d="M200,115 L238,115" class="ln"/>
+
+  <!-- diarization block -->
+  <rect x="450" y="60" width="700" height="195" rx="12" fill="none" stroke="#2f6db5" stroke-dasharray="6 4"/>
+  <text x="462" y="80" class="s" fill="#2f6db5" font-weight="600">TASK 1  Speaker diarization (who spoke when): pyannote speaker-diarization-community-1</text>
+
+  <rect x="470" y="95" width="200" height="95" class="box sd"/>
+  <text x="570" y="122" text-anchor="middle" class="t">Segmentation</text>
+  <text x="570" y="142" text-anchor="middle" class="s">pyannote segmentation-3.0</text>
+  <text x="570" y="160" text-anchor="middle" class="s">speech, speaker changes,</text>
+  <text x="570" y="176" text-anchor="middle" class="s">up to 3 voices at once</text>
+
+  <rect x="700" y="95" width="210" height="95" class="box sd"/>
+  <text x="805" y="122" text-anchor="middle" class="t">Speaker embeddings</text>
+  <text x="805" y="142" text-anchor="middle" class="s">WeSpeaker ResNet34</text>
+  <text x="805" y="160" text-anchor="middle" class="s">per speaker per window</text>
+  <text x="805" y="176" text-anchor="middle" class="s">(overlap excluded)</text>
+
+  <rect x="940" y="95" width="195" height="95" class="box sd"/>
+  <text x="1037" y="122" text-anchor="middle" class="t">Clustering</text>
+  <text x="1037" y="142" text-anchor="middle" class="s">VBx (community-1)</text>
+  <text x="1037" y="160" text-anchor="middle" class="s">speaker count estimated</text>
+  <text x="1037" y="176" text-anchor="middle" class="s">(or given if known)</text>
+  <path d="M410,115 L468,140" class="ln"/>
+  <path d="M670,142 L698,142" class="ln"/>
+  <path d="M910,142 L938,142" class="ln"/>
+  <text x="470" y="215" class="nb">chosen on DiarBench Bengali dev over 3.1, my re-clustering, PixIT and my overlap fusion;</text>
+  <text x="470" y="232" class="nb">test (9.3 h, real): DER 19.8 → 16.7 %, speaker count right 35 → 46 of 56 clips</text>
+
+  <!-- turns -->
+  <rect x="940" y="290" width="195" height="80" class="box io"/>
+  <text x="1037" y="318" text-anchor="middle" class="t">Speaker turns</text>
+  <text x="1037" y="338" text-anchor="middle" class="s">merge same speaker &lt; 0.5 s</text>
+  <text x="1037" y="355" text-anchor="middle" class="s">max 25 s, overlap flagged</text>
+  <path d="M1037,190 L1037,288" class="ln"/>
+
+  <!-- ASR block -->
+  <rect x="450" y="280" width="455" height="200" rx="12" fill="none" stroke="#2e8b47" stroke-dasharray="6 4"/>
+  <text x="462" y="300" class="s" fill="#2e8b47" font-weight="600">TASK 2  Bengali ASR (what was said), per turn</text>
+
+  <rect x="690" y="315" width="200" height="90" class="box asr"/>
+  <text x="790" y="342" text-anchor="middle" class="t">VAD gate</text>
+  <text x="790" y="362" text-anchor="middle" class="s">Silero: no speech →</text>
+  <text x="790" y="380" text-anchor="middle" class="s">skip (no hallucination)</text>
+
+  <rect x="465" y="315" width="200" height="90" class="box asr"/>
+  <text x="565" y="342" text-anchor="middle" class="t">IndicConformer 600M</text>
+  <text x="565" y="362" text-anchor="middle" class="s">AI4Bharat, ONNX, RNN-T</text>
+  <text x="565" y="380" text-anchor="middle" class="s">language = bn</text>
+  <path d="M938,330 L892,345" class="ln"/>
+  <path d="M690,360 L667,360" class="ln"/>
+  <text x="465" y="428" class="n">chosen by lowest CER on real consultations (rule fixed in advance):</text>
+  <text x="465" y="445" class="n">600M 7.2 % · my 120M clinical fine-tune 9.4 % · whisper-medium 13.0 %</text>
+  <text x="465" y="462" class="n">my whisper-small 39.2 % · clinical terms right: 71 % (main gap, Task 3C)</text>
+
+  <!-- roles -->
+  <rect x="160" y="300" width="250" height="160" class="box role"/>
+  <text x="285" y="327" text-anchor="middle" class="t">Role assignment</text>
+  <text x="285" y="349" text-anchor="middle" class="s">whole-conversation cues per speaker</text>
+  <text x="285" y="368" text-anchor="middle" class="s">Doctor: instructions, polite 2nd person</text>
+  <text x="285" y="386" text-anchor="middle" class="s">Patient: own symptoms (1st person)</text>
+  <text x="285" y="404" text-anchor="middle" class="s">Attendant: talks about someone else</text>
+  <text x="285" y="422" text-anchor="middle" class="s">Other: under 2 s of speech</text>
+  <text x="285" y="440" text-anchor="middle" class="s">never uses speaking order</text>
+  <path d="M465,360 L412,370" class="ln"/>
+
+  <!-- output -->
+  <rect x="30" y="505" width="1120" height="130" class="box io"/>
+  <text x="50" y="531" class="t">Output: speaker-attributed transcript (+ RTTM, JSON with overlap flags)</text>
+  <text x="50" y="557" class="s" font-family="Noto Sans Bengali, Nirmala UI, sans-serif">Attendant [00:00–00:04]: স্যার আমার ছেলেকে নিয়ে এসেছি …</text>
+  <text x="50" y="577" class="s" font-family="Noto Sans Bengali, Nirmala UI, sans-serif">Doctor [00:05–00:07]: আচ্ছা বসুন বাচ্চার বয়স কত …</text>
+  <text x="50" y="603" class="s">Real consultations A + B: DER 2.7 %, role error 1.2 %, roles correct 2/2, role-attributed CER 6.8 %</text>
+  <text x="50" y="622" class="s">6 synthetic consultations (2–5 people): DER 22.9 %, role error 21.1 %, roles fully right 3/6</text>
+  <path d="M285,460 L285,503" class="ln"/>
+</svg>

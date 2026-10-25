@@ -1,0 +1,19 @@
+{
+  "model": "bangla-speech-processing/BanglaASR",
+  "run": "zs_banglaasr_small",
+  "clips": 390,
+  "decoding": {
+    "language": "bn",
+    "task": "transcribe",
+    "max_new_tokens": 440,
+    "num_beams": 1
+  },
+  "WER%": 36.86,
+  "CER%": 9.86,
+  "wrong_script_%": 0.0,
+  "empty_%": 0.0,
+  "repetition_loops_%": 0.0,
+  "over_long_output_%": 0.3,
+  "seconds": 64.2,
+  "device": "Tesla T4"
+}

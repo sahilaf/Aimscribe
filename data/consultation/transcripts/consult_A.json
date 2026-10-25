@@ -1,0 +1,226 @@
+[
+ {
+  "line": "A1",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 1.178,
+  "end": 3.659,
+  "text": "আসসালামু আলাইকুম, বসুন। বলুন, আপনার কী সমস্যা হচ্ছে?"
+ },
+ {
+  "line": "A2",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 3.997,
+  "end": 6.646,
+  "text": "ওয়ালাইকুম আসসালাম। ডাক্তার সাহেব, আমার তিন দিন ধরে জ্বর।"
+ },
+ {
+  "line": "A3",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 7.321,
+  "end": 8.992,
+  "text": "জ্বর কত ছিল? মেপেছিলেন?"
+ },
+ {
+  "line": "A4",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 9.177,
+  "end": 10.881,
+  "text": "জি, কাল রাতে একশো দুই ছিল।"
+ },
+ {
+  "line": "A5",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 11.624,
+  "end": 13.97,
+  "text": "হুম। সাথে কাশি বা গলা ব্যথা আছে?"
+ },
+ {
+  "line": "A6",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 14.341,
+  "end": 16.788,
+  "text": "হ্যাঁ, একটু কাশি আছে। আর মাথাটা খুব ব্যথা করে।"
+ },
+ {
+  "line": "A7",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 17.345,
+  "end": 18.476,
+  "text": "কোনো ওষুধ খেয়েছেন?"
+ },
+ {
+  "line": "A8",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 18.577,
+  "end": 21.53,
+  "text": "না, এখনো খাইনি। শুধু গরম পানি খাচ্ছি আর—"
+ },
+ {
+  "line": "A9",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 22.188,
+  "end": 23.268,
+  "text": "প্যারাসিটামলও খাননি?"
+ },
+ {
+  "line": "A10",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 23.032,
+  "end": 23.656,
+  "text": "না।"
+ },
+ {
+  "line": "A11",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 24.382,
+  "end": 26.913,
+  "text": "আপনার কি ডায়াবেটিস বা হাই ব্লাড প্রেশার আছে?"
+ },
+ {
+  "line": "A12",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 27.132,
+  "end": 30.76,
+  "text": "প্রেশার একটু হাই থাকে। আমি অ্যামলোডিপিন ফাইভ মিলিগ্রাম খাই।"
+ },
+ {
+  "line": "A13",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 31.385,
+  "end": 32.735,
+  "text": "ঠিক আছে। শ্বাসকষ্ট হয়?"
+ },
+ {
+  "line": "A14",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 32.836,
+  "end": 33.207,
+  "text": "না।"
+ },
+ {
+  "line": "A15",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 34.203,
+  "end": 35.924,
+  "text": "বমি বা পাতলা পায়খানা হয়েছে?"
+ },
+ {
+  "line": "A16",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 36.278,
+  "end": 38.522,
+  "text": "হুম, গতকাল একবার বমি হয়েছে।"
+ },
+ {
+  "line": "A17a",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 39.483,
+  "end": 40.049,
+  "text": "আচ্ছা"
+ },
+ {
+  "line": "A17b",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 42.613,
+  "end": 47.315,
+  "text": "এখন ডেঙ্গুর সিজন, তাই একটা সিবিসি আর ডেঙ্গু এনএস-ওয়ান টেস্ট করাবেন।"
+ },
+ {
+  "line": "A18",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 48.243,
+  "end": 49.746,
+  "text": "টেস্টগুলো কি আজকেই করাতে হবে?"
+ },
+ {
+  "line": "A19",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 50.302,
+  "end": 52.496,
+  "text": "জি, আজকেই করান। রিপোর্ট পেলে আমাকে দেখাবেন।"
+ },
+ {
+  "line": "A20",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 52.647,
+  "end": 53.221,
+  "text": "আচ্ছা।"
+ },
+ {
+  "line": "A21",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 54.149,
+  "end": 61.253,
+  "text": "জ্বরের জন্য প্যারাসিটামল ফাইভ হান্ড্রেড মিলিগ্রাম, দিনে তিনবার, খাওয়ার পরে। প্রচুর পানি আর ওরস্যালাইন খাবেন।"
+ },
+ {
+  "line": "A22",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 61.355,
+  "end": 62.469,
+  "text": "অ্যান্টিবায়োটিক লাগবে না?"
+ },
+ {
+  "line": "A23",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 62.772,
+  "end": 67.092,
+  "text": "না, এখন অ্যান্টিবায়োটিক লাগবে না। মনে হচ্ছে ভাইরাল ফিভার। তবে যদি—"
+ },
+ {
+  "line": "A24",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 67.143,
+  "end": 67.582,
+  "text": "জি।"
+ },
+ {
+  "line": "A25",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 67.953,
+  "end": 72.83,
+  "text": "—পেটে ব্যথা, রক্তপাত বা খুব দুর্বল লাগে, সাথে সাথে হাসপাতালে আসবেন।"
+ },
+ {
+  "line": "A26",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 73.184,
+  "end": 74.787,
+  "text": "ঠিক আছে, ধন্যবাদ ডাক্তার সাহেব।"
+ },
+ {
+  "line": "A27",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 75.108,
+  "end": 75.783,
+  "text": "ভালো থাকবেন।"
+ }
+]

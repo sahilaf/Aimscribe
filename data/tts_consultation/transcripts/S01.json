@@ -1,0 +1,106 @@
+[
+ {
+  "line": "S01-01",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 0.5,
+  "end": 6.3,
+  "text": "ডাক্তার সাহেব, আমার কয়েকদিন ধরে খুব শ্বাসকষ্ট হচ্ছে, বিশেষ করে রাতে।"
+ },
+ {
+  "line": "S01-02",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 7.058,
+  "end": 9.458,
+  "text": "আচ্ছা, বসুন। আগে কখনো এমন হয়েছিল?"
+ },
+ {
+  "line": "S01-03",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 9.964,
+  "end": 12.764,
+  "text": "ছোটবেলায় অ্যাজমা ছিল, অনেক বছর ভালো ছিলাম।"
+ },
+ {
+  "line": "S01-04",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 13.294,
+  "end": 16.744,
+  "text": "এখন কি কাশি আছে? বুকে শাঁ শাঁ শব্দ হয়?"
+ },
+ {
+  "line": "S01-05",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 17.317,
+  "end": 17.617,
+  "text": "হ্যাঁ।"
+ },
+ {
+  "line": "S01-06",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 17.968,
+  "end": 19.563,
+  "text": "কোনো ইনহেলার ব্যবহার করছেন?"
+ },
+ {
+  "line": "S01-07",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 20.095,
+  "end": 24.562,
+  "text": "না, শুধু ফার্মেসি থেকে একটা কাশির সিরাপ খাচ্ছি আর—"
+ },
+ {
+  "line": "S01-08",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 23.862,
+  "end": 30.162,
+  "text": "সিরাপে কাজ হবে না। আমি সালমিটারল ফ্লুটিকাসোন ইনহেলার দিচ্ছি, সকালে আর রাতে দুই চাপ করে।"
+ },
+ {
+  "line": "S01-09",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 24.742,
+  "end": 25.242,
+  "text": "জি।"
+ },
+ {
+  "line": "S01-10",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 30.848,
+  "end": 35.815,
+  "text": "আর মন্টিলুকাস্ট টেন মিলিগ্রাম রাতে একটা। একটা বুকের এক্সরে করাবেন।"
+ },
+ {
+  "line": "S01-11",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 36.115,
+  "end": 38.179,
+  "text": "ধুলাবালিতে গেলে কি বেশি হয়?"
+ },
+ {
+  "line": "S01-12",
+  "speaker": "Doctor",
+  "role": "Doctor",
+  "start": 38.874,
+  "end": 43.074,
+  "text": "হ্যাঁ, ধুলা আর ঠান্ডা থেকে দূরে থাকবেন। দুই সপ্তাহ পরে আবার আসবেন।"
+ },
+ {
+  "line": "S01-13",
+  "speaker": "Patient",
+  "role": "Patient",
+  "start": 43.705,
+  "end": 45.093,
+  "text": "ঠিক আছে, ধন্যবাদ।"
+ }
+]

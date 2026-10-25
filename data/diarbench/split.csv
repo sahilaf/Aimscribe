@@ -1,0 +1,105 @@
+clip,recording,condition,split
+bengali_001,bengali_nf_001,Near field,dev
+bengali_002,bengali_nf_001,Near field,dev
+bengali_003,bengali_nf_001,Near field,dev
+bengali_004,bengali_nf_001,Near field,dev
+bengali_005,bengali_nf_002,Near field,test
+bengali_006,bengali_nf_002,Near field,test
+bengali_007,bengali_nf_002,Near field,test
+bengali_008,bengali_nf_002,Near field,test
+bengali_009,bengali_nf_002,Near field,test
+bengali_010,bengali_nf_002,Near field,test
+bengali_011,bengali_nf_002,Near field,test
+bengali_012,bengali_nf_002,Near field,test
+bengali_013,bengali_nf_002,Near field,test
+bengali_014,bengali_nf_002,Near field,test
+bengali_015,bengali_nf_002,Near field,test
+bengali_016,bengali_nf_002,Near field,test
+bengali_017,bengali_nf_001,Near field,dev
+bengali_018,bengali_nf_001,Near field,dev
+bengali_019,bengali_nf_001,Near field,dev
+bengali_020,bengali_nf_001,Near field,dev
+bengali_021,bengali_nf_001,Near field,dev
+bengali_022,bengali_nf_001,Near field,dev
+bengali_023,bengali_nf_001,Near field,dev
+bengali_024,bengali_nf_001,Near field,dev
+bengali_025,bengali_nf_001,Near field,dev
+bengali_026,bengali_nf_001,Near field,dev
+bengali_027,bengali_nf_001,Near field,dev
+bengali_028,bengali_nf_001,Near field,dev
+bengali_029,bengali_nf_001,Near field,dev
+bengali_030,bengali_nf_001,Near field,dev
+bengali_031,bengali_nf_001,Near field,dev
+bengali_032,bengali_nf_001,Near field,dev
+bengali_033,bengali_itw_001,In the wild,dev
+bengali_034,bengali_itw_002,In the wild,test
+bengali_035,bengali_itw_003,In the wild,test
+bengali_036,bengali_itw_004,In the wild,dev
+bengali_037,bengali_itw_005,In the wild,test
+bengali_038,bengali_itw_006,In the wild,dev
+bengali_039,bengali_itw_007,In the wild,test
+bengali_040,bengali_itw_008,In the wild,test
+bengali_041,bengali_itw_009,In the wild,test
+bengali_042,bengali_itw_010,In the wild,test
+bengali_043,bengali_itw_011,In the wild,dev
+bengali_044,bengali_itw_012,In the wild,dev
+bengali_045,bengali_itw_013,In the wild,test
+bengali_046,bengali_itw_014,In the wild,dev
+bengali_047,bengali_itw_015,In the wild,dev
+bengali_048,bengali_itw_016,In the wild,dev
+bengali_049,bengali_itw_017,In the wild,dev
+bengali_050,bengali_itw_018,In the wild,test
+bengali_051,bengali_itw_019,In the wild,test
+bengali_052,bengali_itw_020,In the wild,test
+bengali_053,bengali_itw_021,In the wild,test
+bengali_054,bengali_itw_022,In the wild,dev
+bengali_055,bengali_itw_023,In the wild,test
+bengali_056,bengali_itw_024,In the wild,test
+bengali_057,bengali_itw_025,In the wild,test
+bengali_058,bengali_itw_026,In the wild,dev
+bengali_059,bengali_itw_027,In the wild,test
+bengali_060,bengali_itw_028,In the wild,test
+bengali_061,bengali_ff_001,Far field,test
+bengali_062,bengali_ff_002,Far field,test
+bengali_063,bengali_ff_003,Far field,test
+bengali_064,bengali_ff_004,Far field,test
+bengali_065,bengali_ff_005,Far field,test
+bengali_066,bengali_ff_006,Far field,dev
+bengali_067,bengali_ff_007,Far field,dev
+bengali_068,bengali_ff_008,Far field,dev
+bengali_069,bengali_ff_009,Far field,test
+bengali_070,bengali_ff_010,Far field,test
+bengali_071,bengali_ff_011,Far field,test
+bengali_072,bengali_ff_012,Far field,test
+bengali_073,bengali_ff_013,Far field,test
+bengali_074,bengali_ff_014,Far field,test
+bengali_075,bengali_ff_015,Far field,dev
+bengali_076,bengali_ff_016,Far field,dev
+bengali_077,bengali_ff_017,Far field,test
+bengali_078,bengali_ff_018,Far field,test
+bengali_079,bengali_ff_019,Far field,dev
+bengali_080,bengali_ff_020,Far field,test
+bengali_081,bengali_ff_021,Far field,dev
+bengali_082,bengali_ff_022,Far field,dev
+bengali_083,bengali_ff_023,Far field,dev
+bengali_084,bengali_nf_003,Near field,test
+bengali_085,bengali_nf_004,Near field,test
+bengali_086,bengali_nf_005,Near field,test
+bengali_087,bengali_nf_006,Near field,test
+bengali_088,bengali_nf_007,Near field,test
+bengali_089,bengali_nf_008,Near field,test
+bengali_090,bengali_nf_009,Near field,dev
+bengali_091,bengali_nf_010,Near field,test
+bengali_092,bengali_nf_011,Near field,test
+bengali_093,bengali_nf_012,Near field,dev
+bengali_094,bengali_nf_013,Near field,dev
+bengali_095,bengali_nf_014,Near field,test
+bengali_096,bengali_nf_015,Near field,test
+bengali_097,bengali_nf_016,Near field,test
+bengali_098,bengali_nf_017,Near field,dev
+bengali_099,bengali_nf_018,Near field,test
+bengali_100,bengali_nf_019,Near field,test
+bengali_101,bengali_nf_020,Near field,dev
+bengali_102,bengali_nf_021,Near field,dev
+bengali_103,bengali_nf_022,Near field,dev
+bengali_104,bengali_nf_023,Near field,dev
