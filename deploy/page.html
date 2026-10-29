@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIMScribe · Bengali speech AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7fb; --surface:#ffffff; --surface-2:#f1f3f8; --border:#e3e7ef; --text:#141a26; --muted:#5d6779;
+  --accent:#3b5bdb; --accent-2:#5c7cfa; --accent-soft:#e8edff;
+  --doctor:#2f6fde; --patient:#0d9f72; --attendant:#d9822b; --other:#7d8597; --ref:#8a94a8;
+  --good:#0d9f72; --danger:#d64545; --shadow:0 1px 2px rgba(16,24,40,.05),0 8px 24px rgba(16,24,40,.06); --radius:14px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0d1117; --surface:#151b24; --surface-2:#1c2430; --border:#2a3341; --text:#e6eaf2; --muted:#98a2b3;
+  --accent:#7c96ff; --accent-2:#9fb1ff; --accent-soft:#1f2a4a;
+  --doctor:#6aa0ff; --patient:#3ccf9b; --attendant:#f0a65a; --other:#9aa3b5; --ref:#6b7487; --good:#3ccf9b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:18px;flex-wrap:wrap}
+.logo{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;flex:none;
+  background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:var(--shadow)}
+h1{font-size:22px;margin:0;letter-spacing:-.01em} .sub{margin:2px 0 0;color:var(--muted);font-size:14px}
+.grow{flex:1}
+.tabs{display:flex;gap:6px;background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:5px;margin-bottom:16px;overflow-x:auto}
+.tab{flex:1;min-width:max-content;font:inherit;font-weight:600;border:0;border-radius:9px;padding:9px 14px;cursor:pointer;background:transparent;color:var(--muted)}
+.tab.on{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
+.tab small{display:block;font-weight:500;font-size:12px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin-bottom:16px}
+.card h2{font-size:15px;margin:0 0 6px} .lead{color:var(--muted);font-size:14px;margin:0 0 14px}
+.drop{border:1.5px dashed var(--border);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;
+  background:var(--surface-2);transition:border-color .15s,background .15s}
+.drop:hover,.drop.over{border-color:var(--accent);background:var(--accent-soft)}
+.drop strong{display:block;font-size:14.5px;margin:4px 0 2px} .drop span{color:var(--muted);font-size:13px}
+.drop .file{color:var(--text);font-weight:500;margin-top:6px}
+audio{width:100%;margin-top:10px;height:38px}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-top:14px}
+.field{display:flex;flex-direction:column;gap:5px;font-size:13px;color:var(--muted)}
+.field input,.field select,.field textarea{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:9px;padding:8px 10px;outline:none}
+.field textarea{font-family:"Noto Sans Bengali",Inter,sans-serif;min-height:64px;resize:vertical;width:100%}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.field.wide{flex:1 1 100%} .num{width:96px}
+.check{display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--text);padding-bottom:8px}
+.btn{font:inherit;font-weight:600;border:0;border-radius:10px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:transform .05s,opacity .15s;text-decoration:none}
+.btn:active{transform:translateY(1px)} .btn:disabled{opacity:.45;cursor:not-allowed}
+.primary{background:var(--accent);color:#fff} .ghost{background:var(--surface-2);color:var(--text);border:1px solid var(--border)}
+.small{padding:6px 11px;font-size:13px}
+.note{font-size:13px;color:var(--muted);margin:10px 0 0} .note b{color:var(--text)}
+.status{display:flex;align-items:center;gap:12px;color:var(--muted);margin-top:14px} .status:empty{display:none}
+.spinner{width:18px;height:18px;border-radius:50%;border:2.5px solid var(--border);border-top-color:var(--accent);animation:spin .8s linear infinite;flex:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.error{color:var(--danger);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.stat{background:var(--surface-2);border-radius:11px;padding:12px 14px}
+.stat b{display:block;font-size:20px;letter-spacing:-.01em} .stat span{font-size:12px;color:var(--muted)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:0 0 12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.group{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:12px 0 2px}
+.lane{display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:center;margin:5px 0}
+.lane label{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.track{position:relative;height:18px;background:var(--surface-2);border-radius:6px;overflow:hidden}
+.seg{position:absolute;top:2px;bottom:2px;border-radius:4px;opacity:.9}
+.axis{display:flex;justify-content:space-between;margin-left:130px;font-size:11px;color:var(--muted);margin-top:4px}
+.turn{display:grid;grid-template-columns:4px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--border)}
+.turn:first-child{border-top:0} .bar{border-radius:4px;background:var(--c)}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+.chip{font-weight:600;color:var(--c);background:color-mix(in srgb,var(--c) 14%,transparent);padding:2px 8px;border-radius:99px}
+.badge{border:1px solid var(--border);padding:1px 7px;border-radius:99px;font-size:11.5px}
+.bn{font-family:"Noto Sans Bengali",Inter,sans-serif;font-size:16px;line-height:1.7}
+.text{margin:4px 0 0}
+.output{background:var(--surface-2);border-radius:11px;padding:14px 16px;margin:0 0 12px}
+.output .label{font-size:12px;color:var(--muted);margin-bottom:4px}
+.head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.head h2{margin:0}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600} td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+pre{margin:0 0 10px;background:var(--surface-2);border-radius:10px;padding:12px 14px;overflow-x:auto;font:12.5px/1.6 "JetBrains Mono",ui-monospace,monospace}
+footer{color:var(--muted);font-size:13px;text-align:center;margin-top:24px} a{color:var(--accent)}
+.hidden{display:none!important}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr)} .lane{grid-template-columns:84px 1fr} .axis{margin-left:94px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 7v10M21 12h0"/></svg></div>
+    <div class="grow">
+      <h1>AIMScribe</h1>
+      <p class="sub">Bengali speech AI assessment · diarization, ASR and a role-labelled consultation transcript</p>
+    </div>
+    <label class="field" id="keyfield">Access key<input id="key" type="password" placeholder="X-API-Key" autocomplete="off"></label>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab on" data-tab="t1">Task 1 · Diarization<small>who spoke when</small></button>
+    <button class="tab" data-tab="t2">Task 2 · ASR<small>Bengali speech to text</small></button>
+    <button class="tab" data-tab="t3">Task 3 · Pipeline<small>role-labelled transcript</small></button>
+  </nav>
+
+  <!-- ============================== Task 1 ============================== -->
+  <div id="t1" class="panel">
+    <section class="card">
+      <h2>Speaker diarization</h2>
+      <p class="lead">Pick a sample (its reference annotation is loaded, so DER is computed) or upload your own audio and, optionally, its RTTM. Run several systems on the same audio to compare them.</p>
+      <div class="row" style="margin-top:0">
+        <label class="field wide">Sample with reference annotation<select id="t1-sample"><option value="">Upload my own audio…</option></select></label>
+      </div>
+      <div class="drop" data-picker="t1"><strong>Drop an audio file here, or click to choose</strong><span>wav, mp3, m4a, ogg … · up to 10 minutes</span><div class="file"></div></div>
+      <input type="file" accept="audio/*" class="hidden" data-input="t1"><audio controls class="hidden" data-player="t1"></audio>
+      <div class="row">
+        <label class="field">System<select id="t1-system">
+          <option value="community1">pyannote community-1 · final</option>
+          <option value="pyannote31">pyannote 3.1 · baseline</option>
+          <option value="pyannote31_recluster">3.1 + my segment re-clustering</option>
+        </select></label>
+        <label class="field">Speakers (optional)<input id="t1-n" class="num" type="number" min="1" max="10" placeholder="auto"></label>
+        <label class="field">Reference RTTM (optional)<input id="t1-ref" type="file" accept=".rttm,.txt"></label>
+        <div class="grow"></div>
+        <button id="t1-go" class="btn primary" disabled>Run diarization</button>
+      </div>
+      <p id="t1-info" class="note"></p>
+      <div id="t1-status" class="status"></div>
+    </section>
+    <section id="t1-out" class="hidden">
+      <div class="stats">
+        <div class="stat"><b id="t1-s-der">–</b><span>DER (collar 0.25 s)</span></div>
+        <div class="stat"><b id="t1-s-parts">–</b><span>miss / false alarm / confusion</span></div>
+        <div class="stat"><b id="t1-s-ov">–</b><span>DER inside overlap</span></div>
+        <div class="stat"><b id="t1-s-spk">–</b><span>speakers found</span></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Who spoke when</h2><a id="t1-dl" class="btn ghost small" download="diarization.rttm">Download RTTM</a></div>
+        <div id="t1-timeline"></div>
+        <div class="axis"><span>00:00</span><span id="t1-end"></span></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Runs on this audio</h2><span class="note" style="margin:0">DER in %; “reported” = value in the submission</span></div>
+        <div class="tablewrap"><table><thead><tr><th>System</th><th class="n">Speakers</th><th class="n">DER</th><th class="n">Miss</th><th class="n">FA</th><th class="n">Conf.</th><th class="n">In overlap</th><th class="n">Reported</th><th class="n">Time</th></tr></thead><tbody id="t1-runs"></tbody></table></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================== Task 2 ============================== -->
+  <div id="t2" class="panel hidden">
+    <section class="card">
+      <h2>Bengali speech recognition</h2>
+      <p class="lead">Pick an OpenSLR 53 clip (its reference transcript is filled in) or upload audio. WER and CER are computed when a reference is given. Audio longer than 25 s is split at pauses.</p>
+      <div class="row" style="margin-top:0">
+        <label class="field wide">Sample clip with reference transcript<select id="t2-sample"><option value="">Upload my own audio…</option></select></label>
+      </div>
+      <div class="drop" data-picker="t2"><strong>Drop an audio file here, or click to choose</strong><span>wav, mp3, m4a, ogg … · up to 10 minutes</span><div class="file"></div></div>
+      <input type="file" accept="audio/*" class="hidden" data-input="t2"><audio controls class="hidden" data-player="t2"></audio>
+      <div class="row">
+        <label class="field">Model<select id="t2-model">
+          <option value="indicconformer-600m">IndicConformer 600M · used in the pipeline</option>
+          <option value="whisper-small-ft">whisper-small · my fine-tune</option>
+          <option value="whisper-small">whisper-small · zero-shot baseline</option>
+        </select></label>
+        <label class="field">Token budget<select id="t2-tokens"><option value="440">440 (fix)</option><option value="128">128 (before)</option></select></label>
+        <label class="check"><input id="t2-vad" type="checkbox" checked> VAD gate</label>
+        <div class="grow"></div>
+        <button id="t2-go" class="btn primary" disabled>Transcribe</button>
+      </div>
+      <div class="row"><label class="field wide">Reference transcript (optional)<textarea id="t2-ref" lang="bn" placeholder="Bengali reference text, for WER / CER"></textarea></label></div>
+      <p class="note">Token budget and VAD gate apply to Whisper only (the Task 2 fixes for cut-off endings and hallucination on silence).</p>
+      <div id="t2-status" class="status"></div>
+    </section>
+    <section id="t2-out" class="hidden">
+      <div class="stats">
+        <div class="stat"><b id="t2-s-wer">–</b><span>WER</span></div>
+        <div class="stat"><b id="t2-s-cer">–</b><span>CER</span></div>
+        <div class="stat"><b id="t2-s-dur">–</b><span>audio length</span></div>
+        <div class="stat"><b id="t2-s-time">–</b><span>processing time</span></div>
+      </div>
+      <div class="card">
+        <div class="output"><div class="label">Output</div><div id="t2-text" class="bn" lang="bn"></div></div>
+        <div id="t2-refbox" class="output"><div class="label">Reference (normalised)</div><div id="t2-reftext" class="bn" lang="bn"></div></div>
+        <div id="t2-chunks"></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Runs on this audio</h2></div>
+        <div class="tablewrap"><table><thead><tr><th>Model</th><th>Settings</th><th class="n">WER</th><th class="n">CER</th><th>Output</th></tr></thead><tbody id="t2-runs"></tbody></table></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================== Task 3 ============================== -->
+  <div id="t3" class="panel hidden">
+    <section class="card">
+      <h2>Integrated pipeline</h2>
+      <p class="lead">Consultation recording → community-1 diarization → VAD + IndicConformer 600M → Doctor / Patient / Attendant / Other.</p>
+      <div class="drop" data-picker="t3"><strong>Drop a consultation recording here, or click to choose</strong><span>wav, mp3, m4a, ogg … · up to 10 minutes</span><div class="file"></div></div>
+      <input type="file" accept="audio/*" class="hidden" data-input="t3"><audio controls class="hidden" data-player="t3"></audio>
+      <div class="row">
+        <label class="field">Speakers (optional)<input id="t3-n" class="num" type="number" min="1" max="10" placeholder="auto"></label>
+        <div class="grow"></div>
+        <button id="t3-go" class="btn primary" disabled>Transcribe</button>
+      </div>
+      <div class="row" style="align-items:center;font-size:13px;color:var(--muted)">Or one of my recorded role-play consultations:
+        <button class="btn ghost small" data-consult="consult_A">A · fever, doctor first</button>
+        <button class="btn ghost small" data-consult="consult_B">B · attendant first, silent patient</button>
+      </div>
+      <div id="t3-status" class="status"></div>
+    </section>
+    <section id="t3-out" class="hidden">
+      <div class="stats">
+        <div class="stat"><b id="t3-s-dur">–</b><span>audio length</span></div>
+        <div class="stat"><b id="t3-s-time">–</b><span>processing time</span></div>
+        <div class="stat"><b id="t3-s-spk">–</b><span>speakers</span></div>
+        <div class="stat"><b id="t3-s-turns">–</b><span>turns</span></div>
+      </div>
+      <div class="card">
+        <h2>Who spoke when</h2>
+        <div class="legend"><span><i style="background:var(--doctor)"></i>Doctor</span><span><i style="background:var(--patient)"></i>Patient</span><span><i style="background:var(--attendant)"></i>Attendant</span><span><i style="background:var(--other)"></i>Other</span></div>
+        <div id="t3-timeline"></div>
+        <div class="axis"><span>00:00</span><span id="t3-end"></span></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Transcript</h2>
+          <div class="actions"><button id="t3-copy" class="btn ghost small">Copy text</button>
+            <a id="t3-json" class="btn ghost small" download="transcript.json">JSON</a>
+            <a id="t3-rttm" class="btn ghost small" download="diarization.rttm">RTTM</a></div>
+        </div>
+        <div id="t3-turns"></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="card">
+    <div class="head"><h2>Use the API</h2><a href="/docs">Interactive docs →</a></div>
+    <pre id="curl"></pre>
+    <p class="note">All endpoints return JSON. The first request after an idle period starts the server (about a minute); later requests take seconds.</p>
+  </section>
+
+  <footer>Code, report and notebooks: <a href="https://github.com/sahilaf/Aimscribe">github.com/sahilaf/Aimscribe</a></footer>
+</div>
+
+<script>
+const KEY_REQUIRED = __KEY_REQUIRED__;
+const $ = id => document.getElementById(id);
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const mmss = s => { s = Math.max(0, Math.floor(s)); return String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0"); };
+const pct = x => x == null ? "–" : x.toFixed(1) + " %";
+const PALETTE = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#06b6d4", "#ec4899", "#84cc16", "#f97316", "#64748b"];
+const ROLE = {Doctor: "var(--doctor)", Patient: "var(--patient)", Attendant: "var(--attendant)", Other: "var(--other)"};
+const roleColor = r => ROLE[r.replace(/\s*\d+$/, "")] || "var(--other)";
+const SYSTEMS = {community1: "community-1 (final)", pyannote31: "pyannote 3.1 (baseline)", pyannote31_recluster: "3.1 + re-clustering"};
+const MODELS = {"indicconformer-600m": "IndicConformer 600M", "whisper-small-ft": "whisper-small · fine-tuned", "whisper-small": "whisper-small · zero-shot"};
+
+// ---------- shared ----------
+if (!KEY_REQUIRED) $("keyfield").classList.add("hidden");
+try { $("key").value = localStorage.getItem("aimscribe-key") || ""; } catch (e) {}
+$("key").addEventListener("change", () => { try { localStorage.setItem("aimscribe-key", $("key").value.trim()); } catch (e) {} });
+
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
+  document.querySelectorAll(".panel").forEach(p => p.classList.toggle("hidden", p.id !== t.dataset.tab));
+});
+
+const origin = location.origin.startsWith("http") ? location.origin : "https://<endpoint>";
+const K = KEY_REQUIRED ? ` -H "X-API-Key: <access key>"` : "";
+$("curl").textContent =
+`# Task 1: diarization (+ DER with a reference RTTM); system = community1 | pyannote31 | pyannote31_recluster
+curl -X POST ${origin}/diarize${K} -F "file=@audio.wav" -F "system=community1" -F "reference=@reference.rttm"
+
+# Task 2: ASR (+ WER / CER with a reference); model = indicconformer-600m | whisper-small-ft | whisper-small
+curl -X POST ${origin}/asr${K} -F "file=@clip.wav" -F "model=indicconformer-600m" --form-string "reference=আমার জ্বর"
+
+# Task 3: role-labelled transcript of a consultation
+curl -X POST ${origin}/transcribe${K} -F "file=@consultation.m4a" -F "num_speakers=2"`;
+
+const pickers = {};
+function picker(id, onChange) {
+  const drop = document.querySelector(`[data-picker="${id}"]`), input = document.querySelector(`[data-input="${id}"]`),
+        player = document.querySelector(`[data-player="${id}"]`);
+  const p = {file: null, set(f, fromSample) {
+    p.file = f;
+    drop.querySelector(".file").textContent = `${f.name} · ${(f.size / 1e6).toFixed(1)} MB`;
+    player.src = URL.createObjectURL(f); player.classList.remove("hidden");
+    $(`${id}-go`).disabled = false;
+    if (onChange) onChange(f, fromSample);
+  }};
+  drop.onclick = () => input.click();
+  input.onchange = () => { if (input.files[0]) p.set(input.files[0], false); };
+  ["dragenter", "dragover"].forEach(t => drop.addEventListener(t, e => { e.preventDefault(); drop.classList.add("over"); }));
+  ["dragleave", "drop"].forEach(t => drop.addEventListener(t, e => { e.preventDefault(); drop.classList.remove("over"); }));
+  drop.addEventListener("drop", e => { if (e.dataTransfer.files[0]) p.set(e.dataTransfer.files[0], false); });
+  pickers[id] = p;
+  return p;
+}
+
+async function call(task, path, fd, render) {
+  const status = $(`${task}-status`), t0 = Date.now();
+  document.querySelectorAll(`#${task} button`).forEach(b => b.disabled = true);
+  status.innerHTML = ""; status.append(el("div", "spinner"), el("span"));
+  const tick = setInterval(() => {
+    const s = (Date.now() - t0) / 1000;
+    status.lastChild.textContent = `Processing … ${s.toFixed(0)} s` + (s > 10 ? " · the server or a model may be starting (about a minute the first time)" : "");
+  }, 500);
+  try {
+    const key = $("key").value.trim();
+    try { localStorage.setItem("aimscribe-key", key); } catch (e) {}
+    const r = await fetch(path, {method: "POST", body: fd, headers: KEY_REQUIRED ? {"X-API-Key": key} : {}});
+    const j = await r.json().catch(() => ({detail: r.statusText}));
+    if (!r.ok) throw new Error(r.status === 401 ? "Wrong or missing access key (top right)." : (j.detail || r.statusText));
+    status.innerHTML = "";
+    render(j);
+  } catch (e) {
+    status.innerHTML = ""; status.append(el("span", "error", "Error: " + e.message));
+  } finally {
+    clearInterval(tick);
+    document.querySelectorAll(`#${task} button`).forEach(b => b.disabled = (b.id === `${task}-go` && !pickers[task].file));
+  }
+}
+
+function lanes(container, groups, duration) {
+  container.innerHTML = "";
+  groups.forEach(g => {
+    if (g.title) container.append(el("div", "group", g.title));
+    g.lanes.forEach(l => {
+      const lane = el("div", "lane"), track = el("div", "track");
+      lane.append(Object.assign(el("label", "", l.label), {title: l.label}), track);
+      l.segments.forEach(s => {
+        const d = el("div", "seg");
+        d.style.left = (100 * s.start / duration) + "%";
+        d.style.width = Math.max(0.3, 100 * (s.end - s.start) / duration) + "%";
+        d.style.background = l.color;
+        d.title = `${l.label} ${mmss(s.start)}–${mmss(s.end)}` + (s.text ? `: ${s.text}` : "");
+        track.append(d);
+      });
+      container.append(lane);
+    });
+  });
+}
+
+function groupBy(items, key) {
+  const m = new Map();
+  items.forEach(x => { if (!m.has(x[key])) m.set(x[key], []); m.get(x[key]).push(x); });
+  return m;
+}
+
+let SAMPLES = {diarization: [], asr: []};
+fetch("/samples").then(r => r.json()).then(s => {
+  SAMPLES = s;
+  s.diarization.forEach(d => $("t1-sample").append(Object.assign(el("option", "", `${d.name} · ${d.set}`), {value: d.name})));
+  s.asr.forEach(a => $("t2-sample").append(Object.assign(el("option", "", `${a.text.slice(0, 48)}${a.text.length > 48 ? "…" : ""} · ${a.duration_s.toFixed(1)} s`), {value: a.file})));
+}).catch(() => {});
+
+// ---------- Task 1 ----------
+let t1Ref = null, t1RefName = "", t1Reported = null;
+picker("t1", (f, fromSample) => {
+  $("t1-runs").innerHTML = ""; $("t1-out").classList.add("hidden");
+  if (!fromSample) { $("t1-sample").value = ""; t1Ref = null; t1Reported = null; $("t1-ref").value = ""; t1Info(); }
+});
+function t1Info() {
+  const parts = [];
+  if (t1Ref) parts.push(`Reference: <b>${t1RefName}</b> · DER will be computed`);
+  else parts.push("No reference: speakers and segments only (add an RTTM for DER)");
+  if (t1Reported) parts.push("Reported in the submission: " +
+    Object.entries(t1Reported).map(([k, v]) => `${SYSTEMS[k] || k} <b>${v.toFixed(2)} %</b>`).join(" · "));
+  $("t1-info").innerHTML = parts.join("<br>");
+}
+t1Info();
+$("t1-sample").onchange = async () => {
+  const name = $("t1-sample").value;
+  if (!name) return;
+  const s = SAMPLES.diarization.find(d => d.name === name);
+  const [audio, ref] = await Promise.all([fetch(`/samples/diarization/${name}/audio.wav`).then(r => r.blob()),
+                                          fetch(`/samples/diarization/${name}/reference.rttm`).then(r => r.text())]);
+  t1Ref = ref; t1RefName = `${name} (sample)`; t1Reported = s ? s["reported_DER%"] : null; $("t1-ref").value = "";
+  pickers.t1.set(new File([audio], `${name}.wav`, {type: "audio/wav"}), true);
+  t1Info();
+};
+$("t1-ref").onchange = async () => {
+  const f = $("t1-ref").files[0];
+  if (f) { t1Ref = await f.text(); t1RefName = f.name; t1Info(); }
+};
+$("t1-go").onclick = () => {
+  const fd = new FormData(), sys = $("t1-system").value;
+  fd.append("file", pickers.t1.file, pickers.t1.file.name);
+  fd.append("system", sys);
+  if ($("t1-n").value) fd.append("num_speakers", $("t1-n").value);
+  if (t1Ref) fd.append("reference", new Blob([t1Ref], {type: "text/plain"}), "reference.rttm");
+  call("t1", "/diarize", fd, j => renderT1(j, sys));
+};
+function parseRttm(text) {
+  return text.split("\n").map(l => l.trim().split(/\s+/)).filter(p => p[0] === "SPEAKER" && p.length >= 8)
+    .map(p => ({speaker: p[7], start: +p[3], end: +p[3] + +p[4]}));
+}
+function renderT1(j, sys) {
+  const e = j.evaluation;
+  $("t1-s-der").textContent = e ? pct(e["DER%"]) : "–";
+  $("t1-s-parts").textContent = e ? `${e["miss%"].toFixed(1)} / ${e["FA%"].toFixed(1)} / ${e["conf%"].toFixed(1)}` : "–";
+  $("t1-s-ov").textContent = e ? pct(e["DER_overlap%"]) : "–";
+  $("t1-s-spk").textContent = e ? `${j.speakers} of ${e.ref_speakers}` : j.speakers;
+  const groups = [];
+  if (t1Ref) {
+    const ref = groupBy(parseRttm(t1Ref), "speaker");
+    groups.push({title: "Reference", lanes: [...ref].map(([spk, segs]) => ({label: spk, segments: segs, color: "var(--ref)"}))});
+  }
+  const hyp = groupBy(j.segments, "speaker");
+  groups.push({title: `Predicted · ${SYSTEMS[sys]}`, lanes: [...hyp].map(([spk, segs], i) => ({label: spk, segments: segs, color: PALETTE[i % PALETTE.length]}))});
+  lanes($("t1-timeline"), groups, j.duration_s);
+  $("t1-end").textContent = mmss(j.duration_s);
+  $("t1-dl").href = URL.createObjectURL(new Blob([j.rttm], {type: "text/plain"}));
+  const tr = el("tr");
+  [[SYSTEMS[sys]], [j.speakers + (e ? ` / ${e.ref_speakers}` : ""), "n"], [e ? e["DER%"].toFixed(2) : "–", "n"],
+   [e ? e["miss%"].toFixed(1) : "–", "n"], [e ? e["FA%"].toFixed(1) : "–", "n"], [e ? e["conf%"].toFixed(1) : "–", "n"],
+   [e && e["DER_overlap%"] != null ? e["DER_overlap%"].toFixed(1) : "–", "n"],
+   [t1Reported && t1Reported[sys] != null ? t1Reported[sys].toFixed(2) : "–", "n"], [j.processing_s + " s", "n"]]
+    .forEach(([v, c]) => tr.append(el("td", c || "", v)));
+  $("t1-runs").append(tr);
+  $("t1-out").classList.remove("hidden");
+}
+
+// ---------- Task 2 ----------
+picker("t2", (f, fromSample) => {
+  $("t2-runs").innerHTML = ""; $("t2-out").classList.add("hidden");
+  if (!fromSample) { $("t2-sample").value = ""; $("t2-ref").value = ""; }
+});
+$("t2-sample").onchange = async () => {
+  const file = $("t2-sample").value;
+  if (!file) return;
+  const s = SAMPLES.asr.find(a => a.file === file);
+  const blob = await fetch(`/samples/asr/${file}`).then(r => r.blob());
+  $("t2-ref").value = s ? s.text : "";
+  pickers.t2.set(new File([blob], file, {type: "audio/wav"}), true);
+};
+const whisperOpts = () => { const w = $("t2-model").value !== "indicconformer-600m"; $("t2-tokens").disabled = !w; $("t2-vad").disabled = !w; };
+$("t2-model").onchange = whisperOpts; whisperOpts();
+$("t2-go").onclick = () => {
+  const fd = new FormData(), model = $("t2-model").value;
+  fd.append("file", pickers.t2.file, pickers.t2.file.name);
+  fd.append("model", model);
+  fd.append("max_new_tokens", $("t2-tokens").value);
+  fd.append("vad_gate", $("t2-vad").checked ? "true" : "false");
+  if ($("t2-ref").value.trim()) fd.append("reference", $("t2-ref").value.trim());
+  call("t2", "/asr", fd, renderT2);
+};
+function renderT2(j) {
+  const e = j.evaluation;
+  $("t2-s-wer").textContent = e ? pct(e["WER%"]) : "–";
+  $("t2-s-cer").textContent = e ? pct(e["CER%"]) : "–";
+  $("t2-s-dur").textContent = j.duration_s.toFixed(1) + " s";
+  $("t2-s-time").textContent = j.processing_s + " s";
+  $("t2-text").textContent = j.text || "(no speech detected)";
+  $("t2-refbox").classList.toggle("hidden", !e);
+  if (e) $("t2-reftext").textContent = e.reference;
+  const ch = $("t2-chunks"); ch.innerHTML = "";
+  if (j.chunks.length > 1) {
+    ch.append(el("div", "group", `${j.chunks.length} chunks (split at pauses)`));
+    j.chunks.forEach(c => {
+      const row = el("div", "turn"); row.style.setProperty("--c", "var(--accent)");
+      const body = el("div"); body.append(el("div", "meta", `${mmss(c.start)}–${mmss(c.end)}`), Object.assign(el("p", "text bn", c.text || "(no speech)"), {lang: "bn"}));
+      row.append(el("div", "bar"), body); ch.append(row);
+    });
+  }
+  const st = j.settings, settings = j.model === "indicconformer-600m" ? "VAD gate" : `${st.max_new_tokens} tokens · VAD ${st.vad_gate ? "on" : "off"}`;
+  const tr = el("tr");
+  tr.append(el("td", "", MODELS[j.model]), el("td", "", settings), el("td", "n", e ? e["WER%"].toFixed(1) : "–"),
+            el("td", "n", e ? e["CER%"].toFixed(1) : "–"), Object.assign(el("td", "bn", j.text || "–"), {lang: "bn"}));
+  $("t2-runs").append(tr);
+  $("t2-out").classList.remove("hidden");
+}
+
+// ---------- Task 3 ----------
+picker("t3");
+$("t3-go").onclick = () => {
+  const fd = new FormData();
+  fd.append("file", pickers.t3.file, pickers.t3.file.name);
+  if ($("t3-n").value) fd.append("num_speakers", $("t3-n").value);
+  call("t3", "/transcribe", fd, renderT3);
+};
+document.querySelectorAll("[data-consult]").forEach(b => b.onclick = async () => {
+  const name = b.dataset.consult, blob = await fetch(`/samples/${name}.wav`).then(r => r.blob());
+  pickers.t3.set(new File([blob], `${name}.wav`, {type: "audio/wav"}), true);
+  $("t3-go").click();
+});
+function renderT3(j) {
+  const speakers = [...new Set(j.turns.map(t => t.speaker))];
+  $("t3-s-dur").textContent = mmss(j.duration_s);
+  $("t3-s-time").textContent = j.processing_s.total.toFixed(1) + " s";
+  $("t3-s-spk").textContent = speakers.length;
+  $("t3-s-turns").textContent = j.turns.length;
+  lanes($("t3-timeline"), [{lanes: speakers.map(s => {
+    const role = j.roles[s] || s;
+    return {label: role, color: roleColor(role), segments: j.turns.filter(t => t.speaker === s)};
+  })}], j.duration_s);
+  $("t3-end").textContent = mmss(j.duration_s);
+  const list = $("t3-turns"); list.innerHTML = "";
+  j.turns.forEach(t => {
+    const row = el("div", "turn"); row.style.setProperty("--c", roleColor(t.role));
+    const body = el("div"), meta = el("div", "meta");
+    meta.append(el("span", "chip", t.role), el("span", "", `${mmss(t.start)}–${mmss(t.end)}`));
+    if (t.overlap) meta.append(el("span", "badge", "overlap"));
+    body.append(meta, Object.assign(el("p", "text bn", t.text), {lang: "bn"}));
+    row.append(el("div", "bar"), body); list.append(row);
+  });
+  $("t3-json").href = URL.createObjectURL(new Blob([JSON.stringify(j, null, 1)], {type: "application/json"}));
+  $("t3-rttm").href = URL.createObjectURL(new Blob([j.rttm], {type: "text/plain"}));
+  $("t3-copy").onclick = async () => {
+    try { await navigator.clipboard.writeText(j.transcript); $("t3-copy").textContent = "Copied ✓"; } catch (e) { $("t3-copy").textContent = "Copy failed"; }
+    setTimeout(() => $("t3-copy").textContent = "Copy text", 1500);
+  };
+  $("t3-out").classList.remove("hidden");
+}
+</script>
+</body>
+</html>

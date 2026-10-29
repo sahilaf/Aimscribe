@@ -22,17 +22,24 @@ Doctor [00:05–00:07]: আচ্ছা বসুন বাচ্চার ব�
 
 ## Live demo
 
-The final pipeline is deployed on Modal (T4 GPU, starts on demand):
-**https://sahilaf--aimscribe-aimscribe-web.us-east.modal.run**. Upload a recording on the page, or call the API:
+All three tasks are deployed on Modal (T4 GPU, starts on demand):
+**https://sahilaf--aimscribe-aimscribe-web.us-east.modal.run**. The page has one tab per task, with the annotated
+samples built in; or call the API (interactive documentation at `/docs`):
+
+| Task | Endpoint | Input | Output |
+|---|---|---|---|
+| 1 Diarization | `POST /diarize` | audio, `system` = `community1` / `pyannote31` / `pyannote31_recluster`, optional reference RTTM | segments, RTTM; with a reference: DER, miss / FA / confusion, DER inside overlap |
+| 2 ASR | `POST /asr` | audio, `model` = `indicconformer-600m` / `whisper-small-ft` / `whisper-small`, optional reference text | text; with a reference: WER, CER |
+| 3 Pipeline | `POST /transcribe` | consultation audio, optional `num_speakers` | role-labelled transcript, turns, RTTM |
 
 ```bash
 curl -X POST https://sahilaf--aimscribe-aimscribe-web.us-east.modal.run/transcribe \
-     -H "X-API-Key: <access key>" -F "file=@consultation.m4a" -F "num_speakers=2"   # num_speakers optional
+     -H "X-API-Key: <access key>" -F "file=@consultation.m4a"
 ```
-The response is JSON: `transcript`, `turns` (speaker, role, start, end, overlap, text), `roles`, `duration_s`,
-`processing_s`, `rttm`. Interactive documentation: `/docs`. The access key was sent with the submission. After an idle
-period the first request takes about a minute to start; a one-minute recording then takes about 6 s.
-Deployment code: `deploy/modal_app.py` (`modal deploy deploy/modal_app.py`).
+The access key was sent with the submission. The live numbers match the report: e.g. `diarbench_bengali_012` DER
+17.29 % (pyannote 3.1) and 13.98 % (community-1). pyannote 3.1 and the re-clustering run in a second container with the
+original pyannote 3.3.2 versions (`deploy/requirements-baseline.txt`). After an idle period the first request takes
+about a minute to start. Deployment code: `deploy/` (`modal deploy deploy/modal_app.py`).
 
 ## Run it
 
