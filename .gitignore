@@ -21,3 +21,5 @@ report/report.html
 *.zip
 CHECKLIST.md
 report/full_report.md
+report/report.tex
+report/figures/
